@@ -265,6 +265,11 @@ h2{
 
         height: 135vh;
     }
+
+    .about__img--pic{
+        height: 17rem;
+        width: 17rem;
+    }
     
     .para{  font-size: 1.5rem;
         width:80%;
