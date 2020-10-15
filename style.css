@@ -270,7 +270,7 @@ h2{
 /*PORTFOLIO SECTION*/
 .portfolio{
     background-color: lightgray;
-    height: 120vh;
+    height: 150vh;
     text-align:center;
     
 }
@@ -285,8 +285,8 @@ h2{
 
 .box__img{
     margin-top: 2rem;
-    height: 27rem;
-    width:27rem;
+    height: 25rem;
+    width:25rem;
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
     border-radius: 2rem;
@@ -296,9 +296,9 @@ h2{
 
 @media only screen and (max-width: 600px){
     .box__img{
-        margin: .5rem;
-        height: 17rem;
-        width:17;
+        margin-bottom: .5rem;
+        height: 18rem;
+        width:18;
         border-radius:.5rem;
        
     }
