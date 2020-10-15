@@ -224,7 +224,7 @@ h1{
 /*ABOUT SECTION*/
 .about{
     background-color: rgb(245, 247, 248);
-    height: 120vh;
+    height: 125vh;
    position: relative;
     text-align:center;
     
@@ -260,7 +260,7 @@ h2{
 }
 
 @media only screen and (max-width: 600px){
-    .para{  font-size: 1.3rem;
+    .para{  font-size: 1.5rem;
         width:80%;
         margin-top:12rem;
         
