@@ -303,8 +303,8 @@ h2{
 @media only screen and (max-width: 600px){
     .box__img{
         margin-bottom: .5rem;
-        height: 18rem;
-        width:18;
+        height: 14rem;
+        width:14;
         border-radius:.5rem;
        
     }
