@@ -1,0 +1,336 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.8rem;
+}
+.header{
+    background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
+    height: 95vh;
+    
+}
+
+@media only screen and (max-width: 600px){
+    .header{height: 100vh;
+            background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096)),url(images/Rbslopezphotography--1.JPG);
+            background-size:contain;
+            background-position:50% 100%;
+            background-repeat: no-repeat;
+            
+        }
+}
+
+.navbar-brand{
+    font-size:1.8rem;
+}
+
+/*DIV LOGO CONTAINTER*/
+.logo-image{
+    background-color: rgb(241, 24, 24);
+    box-shadow: -2px 0 5px 2px black;
+    border-radius: 50%;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:1;
+    animation: logoMove 10s infinite;
+    
+}
+
+@keyframes logoMove {
+    5%{ background-color: rgb(1, 161, 235);
+
+    }
+    
+    35% {/*background-color: rgb(1, 1, 77);*/
+        background-color: rgb(189, 172, 172);
+    
+    }
+
+
+    50% {
+      /*  background-color: rgb(1, 161, 235);*/
+        background-color: rgba(233, 5, 165, 0.836);
+        
+    }
+
+
+
+    70% {
+        background-color: rgb(235, 1, 1);
+    }
+    
+    100% {
+       /* background-color: rgb(49, 115, 238);*/
+        background-color: rgb(24, 241, 42);
+    }
+
+  }
+
+img{
+    
+    height: 12rem;
+    width:12rem;
+}
+
+@media only screen and (max-width: 600px){
+    .logo-image{
+       
+        top:35%;
+       
+        
+    }
+
+    img{
+    
+        height: 10rem;
+        width:10rem;
+    }
+
+    .navbar-brand{
+        font-size:1.8rem;
+    }
+    
+}
+
+/*DIV HEADING*/
+.heading-container{
+    background-color: rgb(49, 115, 238);
+    clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
+    height: 92.7vh;
+    animation:containerMove 15s infinite;
+  
+}
+
+
+@keyframes containerMove {
+    
+    15% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
+        background-color: rgb(1, 1, 77);
+    
+    }
+
+
+    50% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
+        background-color: rgb(1, 161, 235);
+        
+        
+    }
+
+
+
+    70% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
+        background-color: rgba(233, 5, 165, 0.836);
+    }
+    
+    90% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
+        background-color: rgb(49, 115, 238);
+    
+    }
+
+  }
+
+  @media only screen and (max-width: 600px){
+    .heading-container{
+        background-color: rgb(49, 115, 238);
+      /*  clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);*/
+        height: 92.7vh;
+        animation:none;
+      
+    }
+
+  }
+
+.heading{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+   
+}
+
+
+h1{
+    display: inline-block;
+    color: white;
+   
+}
+.heading__span--1{
+    
+    font-size: 3.5rem;
+}
+.heading__span--2{
+    border-bottom: .5rem dotted rgb(255, 0, 119);
+    font-size: 3.8rem;
+    text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
+    animation:borderMove 4s infinite;
+    
+}
+
+
+@keyframes borderMove {
+    
+
+    50% {border-bottom: 1rem dotted rgb(226, 10, 10);}
+
+
+  }
+
+.heading__span--3{
+    font-size: 2.8rem;
+}
+
+/*Media Querries*/
+@media only screen and (max-width: 600px){
+    .heading-container{
+        clip-path: polygon(0 0, 100% 0, 100% 67%, 0 78%);
+        
+    
+    }
+
+    .heading{
+        position: absolute;
+        top:50%;
+        width: 85%;
+    }
+
+   
+    h1{
+        display:inline-block;
+    }
+    
+    .heading__span--1{
+    
+        font-size: 3.2rem;
+    }
+
+    .heading__span--2{
+        border-bottom: .5rem dotted rgb(255, 0, 119);
+        text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
+        font-size: 3.5rem;
+        
+    }
+    
+    .heading__span--3{
+    font-size: 3rem;
+    }
+}
+
+/*ABOUT SECTION*/
+.about{
+    background-color: rgb(245, 247, 248);
+    height: 100vh;
+   position: relative;
+    text-align:center;
+    
+}
+
+h2{
+    margin:0 5rem 1rem 5rem;
+    font-size:3rem;
+    padding-top: 5rem;
+}
+
+.about__img{
+    display:inline;
+    
+}
+
+.about__img--pic{
+    border: 1px solid black;
+    border-radius:50%;
+    height: 20rem;
+    width: 20rem;
+}
+
+.para{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width:50%;
+   margin-top: 12rem;
+   font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+    .para{  font-size: 1.5rem;
+        width:80%;
+        margin-top:12rem;
+        
+    }
+}
+
+/*PORTFOLIO SECTION*/
+.portfolio{
+    background-color: lightgray;
+    height: 100vh;
+    text-align:center;
+    
+}
+/*
+
+.box{
+    height:100vh;
+    background-color:red;
+   margin:0 auto;
+    
+}*/
+
+.box__img{
+    margin-top: 2rem;
+    height: 27rem;
+    width:27rem;
+    border: .2rem solid black;
+    box-shadow: 0 0 5px #777;
+    border-radius: 2rem;
+    
+   
+}
+
+@media only screen and (max-width: 600px){
+    .box__img{
+        margin: .5rem;
+        height: 17rem;
+        width:17;
+        border-radius:.5rem;
+       
+    }
+
+   
+
+}
+
+/*
+.box--1{
+    
+    background-color:green;
+    height: 27rem;
+    width: 27rem;
+}
+
+.box--2{
+    background-color:blue;
+    height: 27rem;
+    width: 27rem;
+}
+
+.box--3{
+    background-color:red;
+    height: 27rem;
+    width: 27rem;
+}*/
+
+.footer{
+    background-color: rgb(15, 13, 13);
+    color:white;
+    height: 20vh;
+    text-align:center;
+    padding-top: 5rem;
+}
