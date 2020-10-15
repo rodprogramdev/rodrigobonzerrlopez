@@ -206,18 +206,18 @@ h1{
     
     .heading__span--1{
     
-        font-size: 3.2rem;
+        font-size: 2rem;
     }
 
     .heading__span--2{
         border-bottom: .5rem dotted rgb(255, 0, 119);
         text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-        font-size: 3.5rem;
+        font-size: 3rem;
         
     }
     
     .heading__span--3{
-    font-size: 3rem;
+    font-size: 2rem;
     }
 }
 
@@ -260,7 +260,7 @@ h2{
 }
 
 @media only screen and (max-width: 600px){
-    .para{  font-size: 1.5rem;
+    .para{  font-size: 1.3rem;
         width:80%;
         margin-top:12rem;
         
