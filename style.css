@@ -101,7 +101,7 @@ img{
 .heading-container{
     background-color: rgb(49, 115, 238);
     clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
-    height: 92.7vh;
+    height: 100vh;/*92.7vh;*/
     animation:containerMove 15s infinite;
   
 }
@@ -117,24 +117,26 @@ img{
 
     50% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
         background-color: rgb(1, 161, 235);
-      
+
 
         
         
     }
 
+   
 
 
-    70% {
-        /*clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);*/
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    65% {
+        /*clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);*/
+        clip-path: polygon(43% 1%, 92% 0, 64% 100%, 14% 100%);
         
         background-color: rgba(233, 5, 165, 0.836);
-     /*   background-image:url(images/Rbslopezphotography--1.JPG);
+        /*background-image:url(images/Rbslopezphotography--1.JPG);
         background-size: cover;*/
     }
     
-    90% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
+    95% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
         background-color: rgb(49, 115, 238);
     
     }
@@ -288,7 +290,7 @@ h2{
 /*PORTFOLIO SECTION*/
 .portfolio{
     background-color: lightgray;
-    height: 150vh;
+    height: 250vh;
     text-align:center;
     
 }
@@ -303,7 +305,7 @@ h2{
 
 .box__img{
     margin-top: 2rem;
-    height: 25rem;
+    height: 30rem;
     width:25rem;
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
@@ -312,15 +314,35 @@ h2{
    
 }
 
+.box__img2--2{
+    display:none;
+    height: 0;
+    width:0;
+}
+
 @media only screen and (max-width: 600px){
     .box__img{
         margin-bottom: .5rem;
-        height: 14rem;
-        width:14;
+        height: 20rem;
+        width:30rem;
         border-radius:.5rem;
+        background-color: red;
        
     }
 
+    .box__img2--1{
+        display:none;
+        height:0;
+        width: 0;
+       
+    }
+    .box__img2--2{
+        display: inline-block;
+        height: 20rem;
+        width: 30rem;
+        background-color: green;
+       
+    }
    
 
 }
