@@ -43,7 +43,7 @@ body{
 
 @keyframes logoMove {
     5%{ background-color: rgb(1, 161, 235);
-
+        
     }
     
     35% {/*background-color: rgb(1, 1, 77);*/
@@ -117,14 +117,21 @@ img{
 
     50% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
         background-color: rgb(1, 161, 235);
+      
+
         
         
     }
 
 
 
-    70% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
+    70% {
+        /*clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);*/
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
         background-color: rgba(233, 5, 165, 0.836);
+     /*   background-image:url(images/Rbslopezphotography--1.JPG);
+        background-size: cover;*/
     }
     
     90% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
