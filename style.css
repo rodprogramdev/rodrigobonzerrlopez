@@ -296,6 +296,12 @@ h2{
     text-align:center;
     
 }
+
+.portfolio__link{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
 /*
 
 .box{
