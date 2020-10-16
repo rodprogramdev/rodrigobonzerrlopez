@@ -246,7 +246,8 @@ h2{
 }
 
 .about__img{
-    display:inline;
+    display:inline-block;
+  
     
 }
 
@@ -272,12 +273,13 @@ h2{
 
     .about{
 
-        height: 135vh;
+        height: 135vh;  
     }
 
     .about__img--pic{
         height: 17rem;
         width: 17rem;
+      
     }
     
     .para{  font-size: 1.5rem;
@@ -305,8 +307,8 @@ h2{
 
 .box__img{
     margin-top: 2rem;
-    height: 30rem;
-    width:25rem;
+    height: 20rem;
+    width:20rem;
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
     border-radius: 2rem;
@@ -326,7 +328,7 @@ h2{
         height: 20rem;
         width:30rem;
         border-radius:.5rem;
-        background-color: red;
+       
        
     }
 
@@ -340,8 +342,7 @@ h2{
         display: inline-block;
         height: 20rem;
         width: 30rem;
-        background-color: green;
-       
+    
     }
    
 
