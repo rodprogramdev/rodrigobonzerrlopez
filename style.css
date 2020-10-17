@@ -328,8 +328,14 @@ h2{
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
     border-radius: 2rem;
+    transition: all .3s;
     
    
+}
+
+.box__img:hover{
+    box-shadow: 0 8px 15px rgb(24, 22, 22);
+    transform: translate(0, -10px );
 }
 
 .box__img2--2{
