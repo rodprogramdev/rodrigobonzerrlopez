@@ -390,10 +390,52 @@ h2{
     width: 27rem;
 }*/
 
-.footer{
+footer{
     background-color: rgb(15, 13, 13);
     color:white;
-    height: 20vh;
+    height: 30vh;
     text-align:center;
-    padding-top: 5rem;
+    padding-top: 6rem;
+}
+
+.footer{
+    display: inline-block;
+    width: 100%;
+}
+
+.footer__list{
+    padding: 0;
+}
+.footer__link{
+   height: 100%;
+   width:100%;
+    
+    
+}
+.footer__list-item {
+    list-style-type: none;
+   display: inline-block;
+  /* background-color: red;*/
+    width:5%;
+    
+    padding: 8px; 
+}
+
+
+@media only screen and (max-width: 600px){
+    .footer__list-item{
+       width: 10%;
+    }
+}
+
+.img-icon{
+    height: 3rem;
+    width: 3rem;
+}
+
+@media only screen and (max-width: 600px){
+    .img-icon{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
