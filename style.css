@@ -24,6 +24,8 @@ body{
 .header{
     background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
     height: 95vh;
+    background-image:url(images/Rbslopezphotography--1.JPG);
+    background-size: cover;
     
 }
 
@@ -56,7 +58,7 @@ body{
 }
 
 @keyframes logoMove {
-    5%{ background-color: rgb(1, 161, 235);
+    5%{ background-color: rgba(1, 161, 235, 0.781);
         
     }
     
@@ -126,13 +128,13 @@ img{
 @keyframes containerMove {
     
     15% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
-        background-color: rgb(1, 1, 77);
-    
+        background-color: rgba(1, 1, 77, 0.466);
+       
     }
 
 
     50% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
-        background-color: rgb(1, 161, 235);
+        background-color: rgba(1, 161, 235, 0.849);
 
 
         
@@ -145,12 +147,12 @@ img{
         clip-path: polygon(43% 1%, 92% 0, 64% 100%, 14% 100%);
         
         background-color: rgba(233, 5, 165, 0.836);
-        /*background-image:url(images/Rbslopezphotography--1.JPG);
-        background-size: cover;*/
+      
     }
     
     100% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
         background-color: rgb(49, 115, 238);
+       
     
     }
 
@@ -339,7 +341,7 @@ h2{
 /*PORTFOLIO SECTION*/
 .portfolio{
     background-color: lightgray;
-    height: 170vh;
+    height: 350vh;
     text-align:center;
     
 }
@@ -347,7 +349,7 @@ h2{
 @media only screen and (max-width: 600px){
     .portfolio{
         
-        height: 550vh;
+        height: 750vh;
         
         
     }
