@@ -47,7 +47,7 @@ body{
     box-shadow: -2px 0 5px 2px black;
     border-radius: 50%;
     position:absolute;
-    top:40%;
+    top:30%;
     left:50%;
     transform:translate(-50%, -50%);
     z-index:1;
@@ -147,7 +147,7 @@ img{
         background-size: cover;*/
     }
     
-    95% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
+    100% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
         background-color: rgb(49, 115, 238);
     
     }
@@ -167,7 +167,7 @@ img{
 
 .heading{
     position: absolute;
-    top:60%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
    
@@ -185,24 +185,47 @@ h1{
     font-size: 3.5rem;
 }
 .heading__span--2{
-    border-bottom: .5rem dotted rgb(255, 0, 119);
-    font-size: 3.8rem;
+  /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
+    font-size: 7rem;
     text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-    animation:borderMove 4s infinite;
+    /*animation:borderMove 3s infinite;*/
     
 }
 
-
+/*
 @keyframes borderMove {
+   
+    20%{
+        border-bottom: 1rem dotted rgb(1, 1, 77);}
     
 
-    50% {border-bottom: 1rem dotted rgb(226, 10, 10);}
+    50% {
+        border-bottom: 1rem dotted rgb(226, 10, 10);
+       
+    }
 
+    60%{
+        border-bottom: 1rem dotted rgb(5, 1, 1);
+    }
 
-  }
+   }*/
 
 .heading__span--3{
     font-size: 2.8rem;
+}
+
+.button{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+    z-index:1;
+}
+
+.btn{
+    font-size: 1.9rem;    
+
 }
 
 /*Media Querries*/
