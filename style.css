@@ -50,7 +50,7 @@ body{
     top:30%;
     left:50%;
     transform:translate(-50%, -50%);
-    z-index:1;
+    
     animation: logoMove 10s infinite;
     
 }
@@ -89,20 +89,22 @@ img{
     
     height: 12rem;
     width:12rem;
+    
 }
 
 @media only screen and (max-width: 600px){
     .logo-image{
        
-        top:35%;
+        top:25%;
        
-        
+       
     }
 
     img{
     
         height: 10rem;
         width:10rem;
+        z-index:-1;
     }
 
     .navbar-brand{
@@ -219,8 +221,8 @@ h1{
     top:60%;
     left: 50%;
     transform:translate(-50%, -50%);
-    
-    z-index:1;
+   
+   
 }
 
 .btn{
@@ -238,8 +240,8 @@ h1{
 
     .heading{
         position: absolute;
-        top:50%;
-        width: 85%;
+        top:40%;
+        width: 75%;
     }
 
    
@@ -253,7 +255,7 @@ h1{
     }
 
     .heading__span--2{
-        border-bottom: .5rem dotted rgb(255, 0, 119);
+       /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
         text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
         font-size: 3rem;
         
@@ -262,6 +264,16 @@ h1{
     .heading__span--3{
     font-size: 2rem;
     }
+
+    .button{
+        
+        top:50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        
+        
+    }
+    
 }
 
 /*ABOUT SECTION*/
