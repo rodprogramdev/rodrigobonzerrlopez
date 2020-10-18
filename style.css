@@ -1,4 +1,18 @@
+/*
+MEDIA QUERRY MANAGER
+600px Phone only
+900px Tablet Portrait
+1200px Tablet Landscape
+1440x 900 Desktop
+1800px Big Desktop
 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     font-size: 62.5%;
 }
@@ -122,9 +136,6 @@ img{
         
         
     }
-
-   
-
 
     65% {
         /*clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
@@ -324,10 +335,10 @@ h2{
 .box__img{
     margin-top: 2rem;
     height: 30rem;
-    width:30rem;
+    width:40rem;
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
-    border-radius: 2rem;
+    border-radius: .5rem;
     transition: all .3s;
     
    
