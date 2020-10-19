@@ -653,10 +653,19 @@ footer{
     padding-top: 6rem;
 }
 
+@media only screen and (max-width: 600px){
+    footer{
+        height: 35vh;
+    }
+}
+
+
 .footer{
     display: inline-block;
     width: 100%;
 }
+
+
 
 .footer__list{
     padding: 0;
@@ -667,6 +676,8 @@ footer{
     
     
 }
+
+
 .footer__list-item {
     list-style-type: none;
    display: inline-block;
