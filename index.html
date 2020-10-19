@@ -15,23 +15,27 @@
     <link rel="stylesheet" href="style.css">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/d44d54e056.js" crossorigin="anonymous"></script>
+       
+
 </head>
 
 <body onload="typeWriter()">
     <section class="header">
         <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-
-            <a class="navbar-brand" href="#">Rodrigo Bonzerr S. Lopez </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+            <a class="navbar-brand" onclick="$('body').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Rodrigo Bonzerr S. Lopez </a>
+            <div id="brand">
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+           </div>
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item "><a class="nav-link text-light" href="#about">About</a></li>
-                    <li class="nav-item "><a class="nav-link text-light" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item "><a class="nav-link text-light" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">About</a></li>
+                    <li class="nav-item "><a class="nav-link text-light" onclick="$('#portfolio').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Portfolio</a></li>
                     <li class="nav-item "><a class="nav-link text-light" target="_blank"
                             href="https://rbsldevtech.wordpress.com/">Contact</a></li>
                 </ul>
@@ -103,166 +107,164 @@
                 </section>
 
 
-                <div class="container-fluid">
+                <div class="container">
                     <br />
 
                     <h3>Content Management Sites</h3>
                     <br />
-                    <section class="content__cms">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- <section class="content__cms"> -->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
 
-                                <a class="portfolio__link" href="https://rbslopez.photo.blog/" target="_blank"><img
-                                        src="images/rbslopez-photos-website.png"
-                                        class="box__img img-thumbnail  img-fluid "></a>
-
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 ">
-
-                                <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
-                                    target="_blank"><img src="images/2mbchronicleslogo.jpg"
-                                        class="box__img box__img2--1  img-thumbnail img-fluid"></a>
-                                <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
-                                    target="_blank"><img src="images/mbcchronicles.png"
-                                        class="box__img box__img2--2  img-thumbnail img-fluid"></a>
-
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-
-                                <a href="https://clarenceandjessicawedding.wordpress.com/" class="portfolio__link"
-                                    target="_blank"><img src="images/clarenceJessica.jpg"
-                                        class="box__img  img-thumbnail  img-fluid "></a>
-
-                            </div>
-
-
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-
-                                <a class="portfolio__link" href="https://wedoscamartialartsinternational.wordpress.com/"
-                                    target="_blank"><img src="images/wedosite.png"
-                                        class="box__img img-thumbnail img-fluid"></a>
-
-                            </div>
-                        </div>
-                        <br>
-
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                                <a href="https://nsrcnu.wordpress.com/2017/01/06/nsrc-national-service-reserve-corps/"
-                                    target="_blank"><img src="images/nsrc-nu.png"
-                                        class="box__img  img-thumbnail img-fluid"></a>
-
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-4 col-sm-6 ">
-
-                                <a href="http://rodrigobonzerrlopez.mystrikingly.com/" class="portfolio__link"
-                                    target="_blank"><img src="images/Rlopezportfolio.png"
-                                        class="box__img img-thumbnail img-fluid"></a>
-
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 col-sm-6">
-
-                                <a href="https://rodprogramdev.wixsite.com/rbslopezportfolio" target="_blank"><img
-                                        src="images/wix-portfoliosite.png"
-                                        class="box__img  img-thumbnail img-fluid"></a>
-
-                            </div>
-
+                            <a class="portfolio__link" href="https://rbslopez.photo.blog/" target="_blank"><img
+                                    src="images/rbslopez-photos-website.png"
+                                    class="box__img img-thumbnail  img-fluid "></a>
 
                         </div>
-                    </section>
+                        <div class="col-lg-3 col-md-4 col-sm-6 ">
+
+                            <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
+                                target="_blank"><img src="images/2mbchronicleslogo.jpg"
+                                    class="box__img box__img2--1  img-thumbnail img-fluid"></a>
+                            <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
+                                target="_blank"><img src="images/mbcchronicles.png"
+                                    class="box__img box__img2--2  img-thumbnail img-fluid"></a>
+
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+
+                            <a href="https://clarenceandjessicawedding.wordpress.com/" class="portfolio__link"
+                                target="_blank"><img src="images/clarenceJessica.jpg"
+                                    class="box__img  img-thumbnail  img-fluid "></a>
+
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+
+                            <a class="portfolio__link" href="https://wedoscamartialartsinternational.wordpress.com/"
+                                target="_blank"><img src="images/wedosite.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
+
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+
+                            <a href="https://nsrcnu.wordpress.com/2017/01/06/nsrc-national-service-reserve-corps/"
+                                target="_blank"><img src="images/nsrc-nu.png"
+                                    class="box__img  img-thumbnail img-fluid"></a>
+
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 ">
+
+                            <a href="http://rodrigobonzerrlopez.mystrikingly.com/" class="portfolio__link"
+                                target="_blank"><img src="images/Rlopezportfolio.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+
+                            <a href="https://rodprogramdev.wixsite.com/rbslopezportfolio" target="_blank"><img
+                                    src="images/wix-portfoliosite.png" class="box__img  img-thumbnail img-fluid"></a>
+
+                        </div>
+
+
+                    </div>
+                    <!-- </section> -->
 
                     <br />
                     <h3>Responsive Web Designs</h3>
                     <br />
-                    <section class="content__rwd">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- <section class="content__rwd"> -->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
 
-                                <a class="portfolio__link"
-                                    href="https://rodprogramdev.github.io/rogueXcomputerservices/" target="_blank"><img
-                                        src="images/roguex-computerservices.png"
-                                        class="box__img img-thumbnail img-fluid"></a>
-
-                            </div>
-
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-
-                                <a href="https://rodprogramdev.github.io/RbslTravels/" class="portfolio__link"
-                                    target="_blank"><img src="images/rbsltravels.png"
-                                        class="box__img  img-thumbnail img-fluid"></a>
-
-                            </div>
-
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-
-                                <a href="https://codepen.io/rodrigo-lopez/pen/OKawWV" class="portfolio__link"
-                                    target="_blank"><img
-                                        src="https://user-images.githubusercontent.com/44669373/64111000-2a5d2480-cdb6-11e9-8681-9b887e1095d9.png"
-                                        class="box__img  img-thumbnail  img-fluid "></a>
-
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-
-                                <a href="https://codepen.io/rodrigo-lopez/full/QeMgxx" target="_blank"><img
-                                        src="https://user-images.githubusercontent.com/44669373/64111470-5c22bb00-cdb7-11e9-9b35-10b5c832fae7.png"
-                                        class="box__img  img-thumbnail img-fluid"></a>
-
-                            </div>
+                            <a class="portfolio__link" href="https://rodprogramdev.github.io/rogueXcomputerservices/"
+                                target="_blank"><img src="images/roguex-computerservices.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
 
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-4 col-sm-6">
 
-                                <a href="https://rodprogramdev.github.io/rbsrental/" class="portfolio__link"
-                                    target="_blank"><img src="images/rbslrental.png"
-                                        class="box__img  img-thumbnail img-fluid"></a>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
 
-                            </div>
+                            <a href="https://rodprogramdev.github.io/RbslTravels/" class="portfolio__link"
+                                target="_blank"><img src="images/rbsltravels.png"
+                                    class="box__img  img-thumbnail img-fluid"></a>
+
                         </div>
-                    </section>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+
+                            <a href="https://codepen.io/rodrigo-lopez/pen/OKawWV" class="portfolio__link"
+                                target="_blank"><img
+                                    src="https://user-images.githubusercontent.com/44669373/64111000-2a5d2480-cdb6-11e9-8681-9b887e1095d9.png"
+                                    class="box__img  img-thumbnail  img-fluid "></a>
+
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+
+                            <a href="https://codepen.io/rodrigo-lopez/full/QeMgxx" target="_blank"><img
+                                    src="https://user-images.githubusercontent.com/44669373/64111470-5c22bb00-cdb7-11e9-9b35-10b5c832fae7.png"
+                                    class="box__img  img-thumbnail img-fluid"></a>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-4 col-sm-6">
+
+                            <a href="https://rodprogramdev.github.io/rbsrental/" class="portfolio__link"
+                                target="_blank"><img src="images/rbslrental.png"
+                                    class="box__img  img-thumbnail img-fluid"></a>
+
+                        </div>
+                    </div>
+                    <!-- </section> -->
                     <br />
-                    <h3>Vanillas Javascript</h3>
+                    <h3>Vanilla Javascript</h3>
                     <br />
-                    <section class="content__vanillaJs">
-                        <div class="container">
-                            <div class="row">
+                    <!-- <section class="content__vanillaJs"> -->
 
-                                <div class="col-lg-6 col-md-4 col-sm-6 ">
+                    <div class="row">
 
-                                    <a href="https://rodprogramdev.github.io/Rods-Tennis-Game/" class="portfolio__link"
-                                        target="_blank"><img
-                                            src="https://user-images.githubusercontent.com/44669373/64112594-71e5af80-cdba-11e9-8f24-817b7ffa9cbd.png"
-                                            class="box__img img-thumbnail img-fluid"></a>
+                        <div class="col-lg-6 col-md-4 col-sm-6 ">
 
-                                </div>
-                                <div class="col-lg-6 col-md-4 col-sm-6 ">
+                            <a href="https://rodprogramdev.github.io/Rods-Tennis-Game/" class="portfolio__link"
+                                target="_blank"><img
+                                    src="https://user-images.githubusercontent.com/44669373/64112594-71e5af80-cdba-11e9-8f24-817b7ffa9cbd.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
 
-                                    <a href=" https://rodprogramdev.github.io/rbsltouchtypingapp/"
-                                        class="portfolio__link" target="_blank"><img src="images/touch-typing-app.png"
-                                            class="box__img img-thumbnail img-fluid"></a>
-
-                                </div>
-                            </div>
                         </div>
-                    </section>
+                        <div class="col-lg-6 col-md-4 col-sm-6 ">
+
+                            <a href=" https://rodprogramdev.github.io/rbsltouchtypingapp/" class="portfolio__link"
+                                target="_blank"><img src="images/touch-typing-app.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
+
+                        </div>
+                    </div>
+
+                    <!-- </section> -->
                     <br />
                     <h3>College Project Archive - Wayback Machine</h3>
-                    <section class="content__wayback">
-                        <div class="row">
-                            <div class="col-lg-12 ">
+                    <!-- <section class="content__wayback"> -->
+                    <div class="row">
+                        <div class="col-lg-12 ">
 
-                                <a class="portfolio__link" href="http://www.wedomartialarts.freeservers.com/"
-                                    target="_blank"><img src="images/wedoarchive.png"
-                                        class="box__img img-thumbnail img-fluid"></a>
+                            <a class="portfolio__link" href="http://www.wedomartialarts.freeservers.com/"
+                                target="_blank"><img src="images/wedoarchive.png"
+                                    class="box__img img-thumbnail img-fluid"></a>
 
-                            </div>
                         </div>
-                    </section>
+                    </div>
+                    <!-- </section> -->
                     <!--
                     <div class="container">
                     <div class="row">
@@ -326,12 +328,13 @@
 
 
             </ul>
-            <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik -
+            <a href='https://www.freepik.com/vectors/background' style="color:white;">Background vector created by freepik -
                 www.freepik.com</a>
         </div>
 
     </footer>
 
+ 
     <!--BOOTSTRAP JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -356,6 +359,8 @@
             }
         }
     </script>
+    <script src="animatescroll.js-master/jquery-1.8.3.min.js"></script>
+    <script src="animatescroll.js-master/animatescroll.js"></script>
 
     <!--https://www.w3schools.com/howto/howto_js_typewriter.asp-->
 </body>

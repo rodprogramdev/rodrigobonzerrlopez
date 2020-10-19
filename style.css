@@ -6,6 +6,21 @@ MEDIA QUERRY MANAGER
 1440x 900 Desktop
 1800px Big Desktop
 
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 */
 
 *{
@@ -50,11 +65,24 @@ body{
 
 .navbar-brand{
     font-size:2.5rem;
+    cursor:pointer;
+}
+
+.brand{
+    background-color: red;
+    height: 100%;
+    width: 100%;
 }
 
 .nav-item{
     padding: 5%;
 }
+
+.nav-link{
+    cursor:pointer;
+}
+
+
 
 /*DIV LOGO CONTAINTER*/
 .logo-image{
@@ -374,7 +402,7 @@ h2{
 
 /*PORTFOLIO SECTION*/
 .portfolio{
-    background-color:lightgray;
+    background-color:rgb(14, 4, 4);
     height: 420vh;
     text-align:center;
     
@@ -411,7 +439,7 @@ h2{
     font-size: 5rem;
     background-color:rgb(101, 247, 247);
     padding-top: 1rem;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(211, 185, 185);
    
    
 }
@@ -426,7 +454,7 @@ h2{
     font-size: 5rem;
     background-color:rgb(227, 227, 233);
     padding-top: 1rem;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(211, 185, 185);
    
     
 }
@@ -444,7 +472,7 @@ h2{
     width: 100%;
     border-radius: 2%;
    /* border: .2rem solid black;*/
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(122, 117, 117);
 }
 
 
@@ -518,12 +546,15 @@ h2{
 }*/
 
 .portfolio__heading{
-    text-shadow: -2px 5px 5px  rgb(202, 18, 18), -3px 5px 5px rgb(199, 16, 16);
+    text-shadow: -2px 5px 5px  rgb(202, 18, 18), -3px 5px 5px rgb(28, 16, 199);
+    color:#fff;
         font-size: 5rem;
 }
 
 h3{
     font-size: 3rem;
+    text-shadow: -2px 0px 2px  rgb(202, 18, 18), -3px 5px 5px rgb(199, 16, 16);
+    color:#fff;
 }
 
 
@@ -554,7 +585,7 @@ h3{
 }
 
 .box__img:hover{
-    box-shadow: 0 8px 15px rgb(24, 22, 22);
+    box-shadow: 0 8px 15px rgb(179, 88, 88);
     transform: translate(0, -10px );
 }
 
