@@ -32,6 +32,12 @@ body{
     
 }
 
+.navbar{
+    font-size: 2rem;
+    padding: 1% 5%;
+    
+}
+
 @media only screen and (max-width: 600px){
     .header{height: 100vh;
             background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096)),url(images/Rbslopezphotography--1.JPG);
@@ -43,7 +49,11 @@ body{
 }
 
 .navbar-brand{
-    font-size:1.8rem;
+    font-size:2.5rem;
+}
+
+.nav-item{
+    padding: 5%;
 }
 
 /*DIV LOGO CONTAINTER*/
@@ -433,7 +443,7 @@ h2{
     margin:5px;
     width: 100%;
     border-radius: 2%;
-    border: .2rem solid black;
+   /* border: .2rem solid black;*/
     box-shadow: 0 0 5px black;
 }
 
@@ -445,12 +455,12 @@ h2{
 }
 
 .content__rwd{
-    background-image:linear-gradient(to left bottom, rgba(12, 14, 129, 0.986), rgba(190, 126, 7, 0.952));
+    background-image:linear-gradient(to left bottom, rgba(96, 12, 129, 0.986), rgba(145, 112, 51, 0.952));
     padding: 2rem;
     margin:5px;
     width: 100%;
     border-radius: 2%;
-    border: .2rem solid black;
+    /*border: .2rem solid black;*/
     box-shadow: 0 0 5px black;
 }
 
@@ -462,12 +472,12 @@ h2{
 }
 
 .content__vanillaJs{
-    background-image:linear-gradient(to left top, rgba(129, 20, 12, 0.986), rgba(231, 101, 214, 0.952));
+    background-image:linear-gradient(to left top, rgba(59, 129, 12, 0.986), rgba(233, 217, 231, 0.952));
     padding: 2rem;
     
     width: 100%;
     border-radius: 1%;
-    border: .2rem solid black;
+   /* border: .2rem solid black;*/
     box-shadow: 0 0 5px black;
 }
 
@@ -478,6 +488,14 @@ h2{
     }
 }
 
+.content__wayback{
+    background-image:linear-gradient(to left top, rgba(14, 11, 61, 0.986), rgba(199, 32, 177, 0.952));
+    padding: 2rem;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 0 0 5px black;
+    
+}
 
 /*
 .cms__wordpress{
@@ -500,8 +518,8 @@ h2{
 }*/
 
 .portfolio__heading{
-    text-shadow: -2px 0px 5px rgb(255, 30, 0);
-    font-size: 5rem;
+    text-shadow: -2px 5px 5px  rgb(202, 18, 18), -3px 5px 5px rgb(199, 16, 16);
+        font-size: 5rem;
 }
 
 h3{
@@ -526,7 +544,7 @@ h3{
 .box__img{
     margin-top: 2rem;
     height: 30rem;
-    width:40rem;
+    width:30rem;
     border: .2rem solid black;
     box-shadow: 0 0 5px #777;
     border-radius: .5rem;
