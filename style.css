@@ -48,7 +48,7 @@ body{
 
 /*DIV LOGO CONTAINTER*/
 .logo-image{
-    background-color: rgb(241, 24, 24);
+    background-color: rgba(241, 24, 24, 0.342);
     box-shadow: -2px 0 5px 2px black, 0px 0 8px 2px #fff;
     border-radius: 50%;
     position:absolute;
@@ -66,7 +66,7 @@ body{
     }
     
     35% {/*background-color: rgb(1, 1, 77);*/
-        background-color: rgb(189, 172, 172);
+        background-color: rgba(189, 172, 172, 0.411);
     
     }
 
@@ -80,12 +80,12 @@ body{
 
 
     70% {
-        background-color: rgb(235, 1, 1);
+        background-color: rgba(235, 1, 1, 0.664);
     }
     
     100% {
        /* background-color: rgb(49, 115, 238);*/
-        background-color: rgb(24, 241, 42);
+        background-color: rgba(24, 241, 42, 0.589);
     }
 
   }
@@ -100,7 +100,7 @@ img{
 @media only screen and (max-width: 600px){
     .logo-image{
        
-        top:25%;
+        top:20%;
        
        
     }
@@ -214,7 +214,7 @@ h1{
     font-size: 7rem;
     text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
    /* line-height: .2rem;*/
-    letter-spacing: 1rem;
+    letter-spacing: .5rem;
     /*animation:borderMove 3s infinite;*/
     
 }
@@ -265,7 +265,7 @@ h1{
 
     .heading{
         position: absolute;
-        top:40%;
+        top:35%;
         width: 75%;
     }
 
@@ -282,7 +282,8 @@ h1{
     .heading__span--2{
        /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
         text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-        font-size: 3rem;
+        font-size: 2.5rem;
+        letter-spacing:.1rem;
         
     }
     
@@ -363,8 +364,8 @@ h2{
 
 /*PORTFOLIO SECTION*/
 .portfolio{
-    background-color: lightgray;
-    height: 350vh;
+    background-color:lightgray;
+    height: 420vh;
     text-align:center;
     
 }
@@ -377,6 +378,136 @@ h2{
         
     }
 }
+
+.cms{
+    height: 20vh;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    
+    padding: 1rem;
+    
+   
+}
+
+@media only screen and (max-width: 600px){
+    .cms{
+        width:100%;
+    
+    }
+}
+
+.cms__wordpress{
+    font-size: 5rem;
+    background-color:rgb(101, 247, 247);
+    padding-top: 1rem;
+    box-shadow: 0 0 5px black;
+   
+   
+}
+
+@media only screen and (max-width: 600px){
+    .cms__wordpress{
+        font-size: 3rem;
+    }
+}
+
+.cms__wix{
+    font-size: 5rem;
+    background-color:rgb(227, 227, 233);
+    padding-top: 1rem;
+    box-shadow: 0 0 5px black;
+   
+    
+}
+
+@media only screen and (max-width: 600px){
+  .cms__wix{
+        font-size: 3rem;
+    }
+}
+
+.content__cms{
+    background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096));
+    padding: 2rem;
+    margin:5px;
+    width: 100%;
+    border-radius: 2%;
+    border: .2rem solid black;
+    box-shadow: 0 0 5px black;
+}
+
+
+@media only screen and (max-width: 600px){
+    .content__cms{
+        border-radius: 0;
+    }
+}
+
+.content__rwd{
+    background-image:linear-gradient(to left bottom, rgba(12, 14, 129, 0.986), rgba(190, 126, 7, 0.952));
+    padding: 2rem;
+    margin:5px;
+    width: 100%;
+    border-radius: 2%;
+    border: .2rem solid black;
+    box-shadow: 0 0 5px black;
+}
+
+
+@media only screen and (max-width: 600px){
+    .content__rwd{
+        border-radius: 0;
+    }
+}
+
+.content__vanillaJs{
+    background-image:linear-gradient(to left top, rgba(129, 20, 12, 0.986), rgba(231, 101, 214, 0.952));
+    padding: 2rem;
+    
+    width: 100%;
+    border-radius: 1%;
+    border: .2rem solid black;
+    box-shadow: 0 0 5px black;
+}
+
+
+@media only screen and (max-width: 600px){
+    .content__vanillaJs{
+        border-radius: 0;
+    }
+}
+
+
+/*
+.cms__wordpress{
+    background-color:#fff;
+    height: 20vh;
+    width:10%;
+    margin: 2rem auto;
+    border-radius:5%;
+    padding-top: 1.6rem;
+    font-size: 8rem;
+}
+.cms__wix{
+    background-color:#fff;
+    height: 20vh;
+    width:10%;
+    margin: 2rem auto;
+    border-radius:50%;
+    padding-top: 1.6rem;
+    font-size: 8rem;
+}*/
+
+.portfolio__heading{
+    text-shadow: -2px 0px 5px rgb(255, 30, 0);
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
 
 .portfolio__link{
     text-decoration: none;
