@@ -61,6 +61,10 @@ body{
             background-repeat: no-repeat;
             
         }
+
+    .navbar{
+        padding: 2%;
+    }
 }
 
 .navbar-brand{
@@ -68,14 +72,14 @@ body{
     cursor:pointer;
 }
 
-.brand{
-    background-color: red;
-    height: 100%;
-    width: 100%;
-}
 
 .nav-item{
     padding: 5%;
+}
+@media only screen and (max-width: 600px){
+    .nav-item{
+        padding: 1%;
+    }
 }
 
 .nav-link{
