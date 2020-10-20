@@ -35,9 +35,11 @@ html{
 body{
     /*font-family: 'Indie Flower', cursive;*/
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem; /*1.8*/
 
 }
+
+
 .header{
     background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
     height: 100vh;/*95vh;*/
