@@ -52,7 +52,7 @@ body{
 }
 
 .navbar{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 3% 0 1%;
     
 }
@@ -220,6 +220,9 @@ img{
 
   }
   */
+
+ 
+
   @media only screen and (max-width: 600px){
     .heading-container{
         /*background-color: rgb(49, 115, 238);*/
@@ -241,7 +244,8 @@ img{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
+    
+    text-align: center;
    
 }
 
@@ -249,11 +253,12 @@ img{
 h1{
     display: inline-block;
     color: white;
-   
+   width:100%;
 }
 .heading__span--1{
     
-    font-size: 3.5rem;
+    font-size: 3rem;
+    letter-spacing: .1rem;
 }
 .heading__span--2{
   /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
@@ -289,7 +294,7 @@ h1{
 
 .button{
     position: absolute;
-    top:60%;
+    top:65%;
     left: 50%;
     transform:translate(-50%, -50%);
    
@@ -312,7 +317,10 @@ h1{
     .heading{
         position: absolute;
         top:38%;
+        left:50%;
+     
         width: 80%;
+        text-align:center;
     }
 
    
@@ -322,19 +330,19 @@ h1{
     
     .heading__span--1{
     
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .heading__span--2{
        /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
         text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-        font-size: 2.5rem;
+        font-size: 2rem;
         letter-spacing:.1rem;
         
     }
     
     .heading__span--3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
 
     .button{
@@ -342,8 +350,12 @@ h1{
         top:50%;
         left: 50%;
         transform:translate(-50%, -50%);
+       
         
-        
+    }
+
+    .btn{
+        font-size:1.5rem;
     }
     
 }
@@ -389,8 +401,8 @@ h2{
     display: inline-block;
     width:50%;
     margin-top: 12rem;
-    font-size: 2.5rem;
-    text-align:left;
+    font-size: 2rem;
+    text-align:center;
 }
 
 @media only screen and (max-width: 600px){
