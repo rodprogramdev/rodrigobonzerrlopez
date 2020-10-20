@@ -405,7 +405,7 @@ h2{
     transform: translate(-50%,-50%);
     display: inline-block;
     width:50%;
-    margin-top: 12rem;
+    margin-top: 10rem;
     font-size: 2rem;
     text-align:center;
 }
@@ -682,7 +682,7 @@ h3{
     height: 27rem;
     width: 27rem;
 }*/
-/****************************************FOOTER SECTION***************************************/
+/****************************************SERVICES SECTION***************************************/
 .services{
     background-color: rgb(245, 247, 248);
     height: 125vh;
@@ -690,6 +690,30 @@ h3{
     text-align:center;
 }
 
+@media only screen and (max-width: 600px){
+    .services{
+        height: 300vh;
+    }
+}
+
+/****************************************CARD SERVICES SECTION***************************************/
+.card{
+    display: inline-block;
+    background-color: orangered;
+    margin: 2rem .5rem;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .card {
+        
+        height:65vh; 
+        width: 80%;
+    }
+}
 
 /****************************************FOOTER SECTION***************************************/
 footer{
