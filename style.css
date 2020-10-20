@@ -33,8 +33,10 @@ html{
 }
 
 body{
-    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
+
 }
 .header{
     background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
