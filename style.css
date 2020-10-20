@@ -23,6 +23,9 @@ MEDIA QUERRY MANAGER
 @media (min-width: 1200px) { ... }
 */
 
+
+/****************************************ROOT SECTION***************************************/
+
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +42,8 @@ body{
 
 }
 
+/****************************************HEADER SECTION***************************************/
+
 
 .header{
     background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
@@ -53,7 +58,7 @@ body{
 
 .navbar{
     font-size: 1.5rem;
-    padding: 0 3% 0 1%;
+    padding: 0 10% 0 2%;
     
 }
 
@@ -360,7 +365,7 @@ h1{
     
 }
 
-/*ABOUT SECTION*/
+/****************************************ABOUT SECTION***************************************/
 .about{
     background-color: rgb(245, 247, 248);
     height: 125vh;
@@ -425,7 +430,7 @@ h2{
     }
 }
 
-/*PORTFOLIO SECTION*/
+/****************************************PORTFOLIO SECTION***************************************/
 .portfolio{
     background-color:rgb(14, 4, 4);
     height: 420vh;
@@ -668,7 +673,16 @@ h3{
     height: 27rem;
     width: 27rem;
 }*/
+/****************************************FOOTER SECTION***************************************/
+.services{
+    background-color: rgb(245, 247, 248);
+    height: 125vh;
+    position: relative;
+    text-align:center;
+}
 
+
+/****************************************FOOTER SECTION***************************************/
 footer{
     background-color: rgb(15, 13, 13);
     color:white;
