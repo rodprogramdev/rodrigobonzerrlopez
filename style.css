@@ -46,7 +46,8 @@ body{
 
 
 .header{
-    background-color: rgb(238, 231, 231);/*rgb(227, 253, 227);*/
+    /*background-color: rgb(238, 231, 231);rgb(227, 253, 227);*/
+    background-color:rgb(14, 4, 4);
     height: 100vh;/*95vh;*/
     background-image:url(images/freepik-background.jpg);
     background-size: cover;
@@ -430,10 +431,26 @@ h2{
     }
 }
 
+/****************************************PARALLAX SECTION***************************************/
+
+.parallax {
+    height: 50vh;
+    background-image: url(images/photography-rbsl.jpg);
+    background-size: cover;
+    background-position: 20% 30%;
+    background-attachment: fixed;
+    width: 100%;
+    /*min-height: 10%;*/
+    /*margin: 0px 50px 40px 50px;
+    border-radius: 20px;
+    border: 10px solid black;*/
+    /*height: 5vh;*/
+}
+
 /****************************************PORTFOLIO SECTION***************************************/
 .portfolio{
     background-color:rgb(14, 4, 4);
-    height: 420vh;
+    height: 450vh;/*420vh;*/
     text-align:center;
     
 }
@@ -595,6 +612,7 @@ h3{
     text-decoration: none;
     height: 100%;
     width: 100%;
+
     
 }
 /*
@@ -606,6 +624,8 @@ h3{
     
 }*/
 
+
+
 .box__img{
     display: inline-block;
     padding: .8rem;
@@ -613,13 +633,14 @@ h3{
     height: 30rem;
     width:30rem;
    /* border: .2rem solid black;*/
-    box-shadow: 0 0 1px #777;
+    /*box-shadow: 0 0 1px #777;*/
     border-radius: .2rem;
     /*box-shadow: 0 8px 15px rgb(179, 88, 88);*/
    /* transform: translate(0, .8rem );*/
     transition: all .3s;
     background-image:linear-gradient(120deg, #fff 0% ,#fff 50%,  rgb(199, 16, 16) 50%);
     background-size: 400%;
+        
 }
 
 .box__img:hover{
@@ -684,8 +705,8 @@ h3{
 }*/
 /****************************************SERVICES SECTION***************************************/
 .services{
-    background-color: rgb(245, 247, 248);
-    height: 125vh;
+   /* background-color: rgb(245, 247, 248);*/
+    height: 150vh;
     position: relative;
     text-align:center;
 }
@@ -696,22 +717,69 @@ h3{
     }
 }
 
+
 /****************************************CARD SERVICES SECTION***************************************/
-.card{
+.card {
+    background-image:url(book1/cid.png);
+    background-size: contain;
+    background-position: -4%;
+    border-radius: 5px;
+    border: 1px solid rgb(129, 97, 97);
+    box-shadow: 0 0 .5rem black;
     display: inline-block;
-    background-color: orangered;
+    background-color:rgb(14, 4, 4);
     margin: 2rem .5rem;
-    height: 80vh;
-    width: 100%;
+    height: 50rem;
+    width: 60rem;
+    display: inline-block;
+    /*width: 100%;*/
     
+    /*text-align:center;*/
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+    height: 30rem;
+    width: 40rem;}
 }
 
 
+.card__page{
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  
+    
+}
+
+    
+
+/*
+#card .turn-page{
+    -webkit-background-size:100% 100% ;
+    background-size:100% 100% ;
+}*/
+
+
+
+
+.card__heading{
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.623);
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    width: 80%;
+    
+    text-shadow: 0 0 .5rem black;
+    box-shadow: 0 2px .5rem rgb(214, 28, 28);
+    
+
+}
+
 @media only screen and (max-width: 600px){
-    .card {
-        
-        height:65vh; 
-        width: 80%;
+
+    .card__heading{
+        font-size: 1rem;
     }
 }
 
