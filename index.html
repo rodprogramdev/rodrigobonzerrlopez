@@ -355,7 +355,7 @@
                         <div class="col-lg-12 col-md-4 col-sm-6">
 
                             <div class="card" id="card">
-                               
+
                                 <div class="card__page" style="background-image:url(book1/cidratio.jpg);"> <br /> <br />
                                     <br /> <br /> <br />
                                     <h3 class="card__heading">PHOTOGRAPHY SERVICES</h3>
@@ -376,7 +376,9 @@
                                     style="background-image:url(book1/red2-rbslopezphotography.jpg);"></div>
                                 <div class="card__page"
                                     style="background-image:url(book1/miss-beautiful-rbslopez-photography.jpg);"></div>
-                                <div class="card__page" style="background-image:url(book1/lens2-rbslopez.png); background-size:contain; background-repeat:no-repeat;"> <br /> <br />
+                                <div class="card__page"
+                                    style="background-image:url(book1/lens2-rbslopez.png); background-size:contain; background-repeat:no-repeat;">
+                                    <br /> <br />
                                     <br /> <br /> <br />
                                     <h3 class="card__heading">PHOTO EDITING</h3>
                                 </div>
@@ -391,7 +393,8 @@
                                 <div class="card__page"
                                     style="background-image:url(book1/RodrigoLopez-StickFighter.jpg);"></div>
 
-                                <div class="card__page" style="background-image:url(book1/swsg-logo-rbslcreativedesigns.jpg);">
+                                <div class="card__page"
+                                    style="background-image:url(book1/swsg-logo-rbslcreativedesigns.jpg);">
                                     <br /> <br /> <br /> <br /> <br />
                                     <h3 class="card__heading">LOGO DESIGN</h3>
 
@@ -405,11 +408,18 @@
                                 <div class="card__page" style="background-color: black;">
                                     <br /> <br /> <br /> <br /> <br />
                                     <h3 class="card__heading">VIDEO EDITING SERVICES</h3>
-                                   <video width="300" heigth="300" controls>
-                                       <source src="book1/sample-video.mp4" type="video/mp4">
-                                   </video>
+                                  
                                 </div>
-                                
+                                <div class="card__page" style="background-color: black;">
+                                    <br /><br />
+                                    <video width="300" heigth="300" controls>
+                                        <source src="book1/rodrigo-bonzerr-lopez-Stick-fighting.mp4" type="video/mp4">
+                                    </video> <br /><br />
+                                    <video width="300" heigth="300" controls>
+                                        <source src="book1/rodrigo-bonzerr-lopez-wedding-ring-video.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                </div>
                                 <div class="card__page" style="background-image:url(book1/01.png);">
                                     <br /> <br /> <br /> <br /> <br />
                                     <h3 class="card__heading">TRANSCRIPTION SERVICES</h3>
@@ -418,10 +428,10 @@
                                 <div class="card__page" style="background-image:url(book1/02.png);"></div>
                                 <div class="card__page" style="background-image:url(book1/03.png);"></div>
                                 <div class="card__page" style="background-image:url(images/Rod.jpg);">
-                                    
+
                                     <h3 class="card__heading" style="margin-top:.3rem;">THANK YOU!!</h3>
                                 </div>
-                                
+
 
 
                             </div>
@@ -446,10 +456,14 @@
                         </div>
                     -->
                     </div>
-
-
+                    <br />
+                    <br />
+                    <br />
+                    <!-- <div id="like_button_container"></div> -->
                 </div>
             </div>
+            <!-- We will put our React component inside this div. -->
+
         </section>
     </main>
 
@@ -524,11 +538,11 @@
     <script src="turn.js"></script>
     <script type="text/javascript">
         $('#card').turn({ gradients: true, acceleration: true });
-        $(window).resize( function() {
 
-window.location.href = window.location.href;
 
-});
+        $(window).resize(function () {
+            window.location.href = window.location.href;
+        });
 
     </script>
 
@@ -539,6 +553,14 @@ window.location.href = window.location.href;
     <script src="animatescroll.js-master/animatescroll.js"></script>
 
     <!--https://www.w3schools.com/howto/howto_js_typewriter.asp-->
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
 </body>
 
 </html>

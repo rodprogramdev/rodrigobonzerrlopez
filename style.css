@@ -634,7 +634,7 @@ h3{
     width:30rem;
    /* border: .2rem solid black;*/
     /*box-shadow: 0 0 1px #777;*/
-    border-radius: .2rem;
+    border-radius: .2rem 5rem .2rem 5rem;
     /*box-shadow: 0 8px 15px rgb(179, 88, 88);*/
    /* transform: translate(0, .8rem );*/
     transition: all .3s;
@@ -713,7 +713,7 @@ h3{
 
 @media only screen and (max-width: 600px){
     .services{
-        height: 300vh;
+        height: 200vh;
     }
 }
 
@@ -721,15 +721,17 @@ h3{
 /****************************************CARD SERVICES SECTION***************************************/
 .card {
     background-image:url(book1/cid.png);
-    background-size: contain;
-    background-position: -4%;
-    border-radius: 5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: -15rem -1rem;
+    border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
-    box-shadow: 0 0 .5rem black;
+    box-shadow: -1rem 1rem 2rem black;
     display: inline-block;
     background-color:rgb(14, 4, 4);
+    background-color:rgb(22, 9, 8);
     margin: 2rem .5rem;
-    height: 50rem;
+    height: 45rem;
     width: 60rem;
     display: inline-block;
     /*width: 100%;*/
@@ -739,14 +741,20 @@ h3{
 
 @media only screen and (max-width: 600px){
     .card{
-    height: 30rem;
-    width: 40rem;}
+    height: 20rem;
+    width: 30rem;
+    margin: 3rem .5rem;
+
+    background-position: -6rem -1rem; 
+}
+
 }
 
 
 .card__page{
   background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
+  
   
     
 }
