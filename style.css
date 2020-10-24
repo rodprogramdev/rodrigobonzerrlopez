@@ -49,7 +49,7 @@ body{
     /*background-color: rgb(238, 231, 231);rgb(227, 253, 227);*/
     background-color:rgb(14, 4, 4);
     height: 100vh;/*95vh;*/
-    background-image:url(images/freepik-background.jpg);
+   background-image:url(images/freepik-background.jpg);
     background-size: cover;
 
     /*https://www.freepik.com/free-vector/abstract-violet-pixel-rain-background_6091932.htm
@@ -253,7 +253,9 @@ img{
     
     text-align: center;
    
+   
 }
+
 
 
 h1{
@@ -273,8 +275,21 @@ h1{
    /* line-height: .2rem;*/
     letter-spacing: .3rem;
     /*animation:borderMove 3s infinite;*/
+    display: inline-block;
+    animation: all .5s;
+    transition: all .5s;
     
 }
+
+.heading__span--2:hover{
+    
+    transform:translate(0, -2rem) rotateZ(-4deg);
+}
+
+
+
+
+
 
 /*
 @keyframes borderMove {
@@ -325,7 +340,7 @@ h1{
         top:38%;
         left:50%;
      
-        width: 80%;
+        width: 90%;
         text-align:center;
     }
 
@@ -341,9 +356,9 @@ h1{
 
     .heading__span--2{
        /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
-        text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
+        text-shadow: -2px 2px 2px  red, -3px 5px 5px black;
         font-size: 2rem;
-        letter-spacing:.1rem;
+        letter-spacing:.5rem;
         
     }
     
@@ -367,6 +382,9 @@ h1{
 }
 
 /****************************************ABOUT SECTION***************************************/
+
+
+
 .about{
     background-color: rgb(245, 247, 248);
     height: 125vh;
@@ -378,9 +396,22 @@ h1{
 h2{
    /* background-color:red;*/
     margin:0 3rem 1rem 3rem;
+    display: inline-block;
     font-size:3rem;
-    padding-top: 7rem;
+    /*padding-top: 7rem;*/
     font-size: 5rem;
+   /*animation: all .5s;*/
+    transition: scale .6s;
+}
+
+
+h2:hover{
+    transform:rotateZ(-4deg);
+    text-shadow: 0 0 5px #fff,  0 5px red ;
+   
+    scale: 1.5 1.5;
+
+    
 }
 
 .about__img{
@@ -408,7 +439,7 @@ h2{
     width:50%;
     margin-top: 10rem;
     font-size: 2rem;
-    text-align:center;
+    text-align:justify;
 }
 
 @media only screen and (max-width: 600px){
@@ -703,6 +734,32 @@ h3{
     height: 27rem;
     width: 27rem;
 }*/
+
+
+/* ***************************************TECHNOLOGY SECTION************************************ */
+.technology{
+    background-color: rgb(22, 13, 13);
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+
+}
+.particles{
+    
+   
+    text-shadow: 0 0 1rem black;
+    height: 100vh;
+
+}
+
+#particles-js{
+    height: 70vh;
+  position: absolute;
+  width: 100%; 
+  z-index:0;
+  /*background-color:red;*/
+}
+
 /****************************************SERVICES SECTION***************************************/
 .services{
    /* background-color: rgb(245, 247, 248);*/
@@ -730,7 +787,7 @@ h3{
     display: inline-block;
     background-color:rgb(14, 4, 4);
     background-color:rgb(22, 9, 8);
-    margin: 2rem .5rem;
+    margin: 4rem .5rem;
     height: 45rem;
     width: 60rem;
     display: inline-block;

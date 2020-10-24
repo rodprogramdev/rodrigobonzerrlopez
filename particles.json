@@ -1,0 +1,28 @@
+{
+    "particles": {
+        "number": {
+            "value": 50
+        },
+        "color":{
+            "value": "#fff"
+        },
+        "shape": {
+            "stroke": {
+                "width": 2,
+                "color":"#f00"
+            }
+           
+        },
+        "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+                "enable": false,
+                "speed":5
+            }
+        },
+        "size": {
+            "value": 2
+        }
+    }
+}
