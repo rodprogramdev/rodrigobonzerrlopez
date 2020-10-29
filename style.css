@@ -124,7 +124,7 @@ img{
 @media only screen and (max-width: 600px){
     .logo-image{
        
-        top:20%;
+        top:45%;
        
        
     }
@@ -325,7 +325,7 @@ h1{
 @media only screen and (max-width: 600px){
     .heading{
         position: absolute;
-        top:38%;
+        top:60%;
         left:50%;
      
         width: 90%;
@@ -356,7 +356,7 @@ h1{
 
     .button{
         
-        top:50%;
+        top:70%;
         left: 50%;
         transform:translate(-50%, -50%);
        
