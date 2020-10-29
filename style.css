@@ -49,9 +49,9 @@ body{
     /*background-color: rgb(238, 231, 231);rgb(227, 253, 227);*/
     /* background-color:rgb(14, 4, 4);  */
     height: 100vh;/*95vh;*/
-    background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),/* rgba(6, 7, 14, 0.733),*/
-    rgba(14, 4, 2, 0.849)),
-     url(images/rod-sidhaya.jpg);
+    background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),/*rgba(6, 7, 14, 0.733),*/
+     rgba(14, 4, 2, 0.849)), 
+     url(images/rod-sidhaya.jpg); 
     background-size: cover;
     background-position: top;
 
@@ -69,7 +69,8 @@ body{
 
 @media only screen and (max-width: 600px){
     .header{height: 100vh;
-            background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096)),url(images/Rbslopezphotography--1.JPG);
+            /* background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096)),url(images/Rbslopezphotography--1.JPG); */
+            
             background-size:contain;
             background-position:50% 100%;
             background-repeat: no-repeat;
@@ -198,21 +199,29 @@ img{
   }
   */
 
+
  
 
   @media only screen and (max-width: 600px){
     .heading-container{
         /*background-color: rgb(49, 115, 238);*/
-        background-image: url(images/freepik-background.jpg);
+       
+        background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),
+        rgba(14, 4, 2, 0.849)), 
+        url(images/RBSL-Vocals.jpg);
         background-size: cover;
         background-position:center;
         /*<a href='https://www.freepik.com/vectors/logo'>Logo vector created by freepik - www.freepik.com</a>*/
             
       /*  clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);*/
-        height: 92.7vh;
+        height: 130vh;
         animation:none;
-      
-    }
+        
+            /* clip-path: polygon(0 0, 100% 0, 100% 67%, 0 78%); */
+            
+        
+        }
+    
 
    }
 
@@ -221,10 +230,7 @@ img{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     text-align: center;
-   
-   
 }
 
 
@@ -317,12 +323,6 @@ h1{
 
 /*Media Querries*/
 @media only screen and (max-width: 600px){
-    .heading-container{
-        clip-path: polygon(0 0, 100% 0, 100% 67%, 0 78%);
-        
-    
-    }
-
     .heading{
         position: absolute;
         top:38%;

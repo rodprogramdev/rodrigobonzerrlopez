@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="469.94703"
+     inkscape:cx="141.64746"
      inkscape:cy="774.88858"
      inkscape:document-units="px"
      inkscape:current-layer="g2089"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -168,26 +168,26 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rage Italic';-inkscape-font-specification:'Rage Italic, ';fill:#ffffff;stroke-width:0.24547836">B</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.30410767px;line-height:1.25;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22775288"
-         x="58.606022"
-         y="138.74477"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.4275856px;line-height:1.25;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22775286"
+         x="64.555214"
+         y="133.05457"
          id="text842"
-         transform="scale(0.9315224,1.0735115)"><tspan
+         transform="scale(0.92170238,1.0849489)"><tspan
            sodipodi:role="line"
            id="tspan840"
-           x="58.606022"
-           y="138.74477"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';stroke-width:0.22775288">BOOTSTRAP</tspan></text>
+           x="64.555214"
+           y="133.05457"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';stroke-width:0.22775286">BOOTSTRAP</tspan></text>
       <text
-         transform="scale(1.00843,0.99164048)"
+         transform="scale(0.93863179,1.0653805)"
          id="text846"
-         y="147.89812"
-         x="58.384609"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.15559769px;line-height:1.25;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22775285"
+         y="138.09329"
+         x="64.529854"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.86074448px;line-height:1.25;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22775285"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Poplar Std';-inkscape-font-specification:'Poplar Std';fill:#ffffff;stroke-width:0.22775285"
-           y="147.89812"
-           x="58.384609"
+           y="138.09329"
+           x="64.529854"
            id="tspan844"
            sodipodi:role="line">BOOTSTRAP</tspan></text>
     </g>
