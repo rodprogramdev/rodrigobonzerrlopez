@@ -76,7 +76,6 @@
                             class="heading__span--2">L</span>
                         <span class="txt-type" data-wait="3000"
                             data-words='["a WEB DEVELOPER", "a PROBLEM SOLVER", "a TEACHER", "a SAFETY OFFICER", "aspiring PENTESTER", "a PHOTOGRAPHER",  "a GAMER", "a MUSIC LOVER", "an ANIME LOVER"]'>
-                            <!--a web developer! class="heading__span--3" -->
                         </span></h1>
 
 
@@ -96,7 +95,7 @@
 
 
     <main>
-        <!-- About Section -->
+        <!-- *******************************************************About Section **********************************-->
 
         <section>
 
@@ -135,42 +134,13 @@
         <!--****************************************PORTFOLIO SECTION*****************************-->
 
         <section>
-
+            
             <div class="portfolio" id="portfolio">
-
+               
                 <br /> <br /> <br />
-
                 <h2 class="portfolio__heading">PROJECT PORTFOLIO</h2>
-                <!--Content Management Websites-->
-                <!--
-                <section class="cms">
-                    <div class="container">
-                        <div class="row">
-                            <div class="cms__wordpress col-lg-6">
-                                 https://fontawesome.com/icons/wordpress?style=brands 
-                                <i class="fab fa-wordpress"></i>
-    
-    
-                            </div>
-    
-    
-                            <div class="cms__wix col-lg-6">
-                                https://fontawesome.com/icons/wix?style=brands 
-                                <i class="fab fa-wix"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </section>
-             -->
-
-
                 <br />
-
-                <!-- <hr style="width:100%;text-align:center;  border-top: 1px solid red"> -->
                 <br />
-
-
                 <br />
                 <section class="content__cms">
                     <!-- <div class="stickMan">
@@ -191,14 +161,18 @@
 
 
                     <div class="container-fluid">
+                       
 
-                        <!-- <h3 class="heading__cms">Content Management Sites</h3> -->
                         <div id="carouselExampleControls" class="carousel slide">
-
-                            <!--data-ride="carousel" -->
+                            <div class="bg-video">
+                                <video class="bg-video__content" autoplay muted loop>
+                                    <source src="videos/pressmaster-video.mp4" type="video/mp4">
+                                    Your browser is not supported!!
+                                </video>
+                            </div>
                             <div class="carousel-inner" style="padding-top: 3%;">
+                               
                                 <div class="carousel-item active ">
-
                                     <a class="portfolio__link" href="https://rbslopez.photo.blog/" target="_blank"><img
                                             src="images/rbslopez-photos-website.png"
                                             class="box__img img-thumbnail  img-fluid "></a>
@@ -211,8 +185,10 @@
 
                                     <img src="..." class="d-block w-100" alt="...">
 
-                                    <br />
-                                    <div class="carousel-caption d-none d-md-block">
+                                        <br>
+                                        
+                                    <div class="carousel-caption d-none d-lg-block">
+
                                         <h3 class="heading__cms">Content Management Sites</h3>
 
                                     </div>
@@ -229,6 +205,10 @@
                                     <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
                                         target="_blank"><img src="images/2mbchronicleslogo.jpg"
                                             class="box__img box__img2--1  img-thumbnail img-fluid"></a>
+                                    <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
+                                        target="_blank"><img src="images/mbcchronicles.png"
+                                            class="box__img box__img2--2  img-thumbnail img-fluid"></a>
+
                                     <a href="https://nsrcnu.wordpress.com/2017/01/06/nsrc-national-service-reserve-corps/"
                                         target="_blank"><img src="images/nsrc-nu.png"
                                             class="box__img  img-thumbnail img-fluid"></a>
@@ -328,8 +308,8 @@
                                 <div class="carousel-item">
 
                                     <a class="portfolio__link" href="http://www.wedomartialarts.freeservers.com/"
-                                    target="_blank"><img src="images/wedoarchive.png"
-                                        class="box__img img-thumbnail img-fluid"></a>
+                                        target="_blank"><img src="images/wedoarchive.png"
+                                            class="box__img img-thumbnail img-fluid"></a>
 
 
                                     <img src="..." class="d-block w-100" alt="...">
@@ -868,9 +848,9 @@
         $('#card').turn({ gradients: true, acceleration: true });
 
 
-        $(window).resize(function () {
-            window.location.href = window.location.href;
-        });
+        // $(window).resize(function () {
+        //     window.location.href = window.location.href;
+        // });
 
     </script>
 

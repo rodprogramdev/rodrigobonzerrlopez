@@ -375,7 +375,6 @@ h1{
 
 .about{
     background-color: rgb(245, 247, 248); 
-    
     height: 125vh;
     position: relative;
     text-align:center;
@@ -399,7 +398,6 @@ h2{
 h2:hover{
     transform:rotateZ(-4deg);
     text-shadow: 0 0 5px #fff,  0 5px red ;
-   
     scale: 1.5 1.5;
 
     
@@ -456,7 +454,7 @@ h2:hover{
 /****************************************PARALLAX SECTION***************************************/
 
 .parallax {
-    height: 50vh;
+    height: 80vh;
     background-image: url(images/photography-rbsl.jpg);
     background-size: cover;
     background-position: 20% 30%;
@@ -470,9 +468,10 @@ h2:hover{
 }
 
 /****************************************PORTFOLIO SECTION***************************************/
+
 .portfolio{
     background-color: rgb(245, 247, 248); /* background-color: black;/*rgb(15, 13, 13); /*rgb(14, 4, 4);*/
-    height: 120vh;/*420vh;*/
+    height: 115vh;/*420vh;*/
     text-align:center;
     
 }
@@ -637,11 +636,11 @@ h3:hover{
 
 .content__cms{
     font-size: 5rem;
-    background-color: rgb(19, 13, 13);
+    /* background-color: rgb(20, 11, 11); */
+    /* background-color: rgb(20, 21, 29); */
     margin:0;
     padding-top: 5%;
     /* transition: scale .6s; */
-   
 }
 
 @media only screen and (max-width: 600px){
@@ -650,13 +649,29 @@ h3:hover{
     }
 }
 
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    /* opacity: .40;  */
+    overflow: hidden; }
+    .bg-video__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+
+
 .heading__cms{
     font-size: 3rem;
     color:#fff;
     transition: all ease .5s;
     padding: 2%;
     display:inline-block;
-
+    
     
 
 }
@@ -708,7 +723,7 @@ h3:hover{
 
 .box__img--rwd{
     display: inline-block;
-    padding: .5rem;
+    padding: .8rem;
     margin-top: 2rem;
     height: 25rem;/*30rem;*/
     width: 25rem;/*30rem;*/
@@ -718,7 +733,9 @@ h3:hover{
     /*box-shadow: 0 8px 15px rgb(179, 88, 88);*/
    /* transform: translate(0, .8rem );*/
     transition: all .3s;
-    background-image:linear-gradient(120deg, rgba(13, 10, 194, 0.438) 0% , rgb(228, 15, 15) 50%,  rgb(199, 16, 16) 50%);
+    /* background-image:linear-gradient(120deg, rgba(13, 10, 194, 0.438) 0% , rgb(228, 15, 15) 50%,  rgb(199, 16, 16) 50%); */
+    background-image:linear-gradient(120deg, #fff 0% ,#fff 50%,  rgb(199, 16, 16) 50%);
+
     background-size: 400%;
     box-shadow: 0 0 15px rgb(19, 4, 4); /*0 8 15  */
 
