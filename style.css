@@ -454,7 +454,7 @@ h2:hover{
 /****************************************PARALLAX SECTION***************************************/
 
 .parallax {
-    height: 80vh;
+    height: 100vh;
     background-image: url(images/photography-rbsl.jpg);
     background-size: cover;
     background-position: 20% 30%;
@@ -639,8 +639,10 @@ h3:hover{
     /* background-color: rgb(20, 11, 11); */
     /* background-color: rgb(20, 21, 29); */
     margin:0;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     /* transition: scale .6s; */
+    padding:0;
+    box-sizing: border-box;
 }
 
 @media only screen and (max-width: 600px){
@@ -665,6 +667,10 @@ h3:hover{
       object-fit: cover; }
 
 
+
+      .portfolio__container{
+          padding:0;
+      }
 .heading__cms{
     font-size: 3rem;
     color:#fff;
@@ -1211,9 +1217,10 @@ h3:hover{
 footer{
     background-color: rgb(15, 13, 13);
     color:white;
-    height: 30vh;
-    text-align:center;
-    padding-top: 6rem;
+    height: 35vh;
+    text-align:left;
+    padding:1% 2% 2% 2% ;
+   
 }
 
 @media only screen and (max-width: 600px){
@@ -1222,6 +1229,75 @@ footer{
     }
 }
 
+
+
+
+@media only screen and (max-width: 600px) {
+
+    footer{
+        height: 50vh;
+       
+    }
+
+  
+}
+
+.footer__heading{
+    font-size:1.75rem;
+    color:white;
+}
+
+.footer__list{
+    list-style-type:none;
+    padding-top: 6%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    h4{
+        font-size: 1rem;
+    }
+    .footer__list{
+        font-size: 12px;
+    }
+}
+
+
+
+
+.footer__item{
+    translate:all ease-in 5s;
+}
+
+.footer__item:hover{
+    color: lightblue;
+
+    text-decoration: none;
+    transform: translateX(.2rem);
+}
+.footer__link{
+    text-decoration: none;
+    cursor: pointer;    
+    color:white;
+}
+
+.footer__link:hover{
+    text-decoration: none;
+    color:rgb(19, 131, 196);/* color: rgb(243, 239, 22); */
+}
+
+.footer__copyright{
+    text-align:center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer__copyright{
+        font-size: 12px;
+    }
+}
+/* 
 
 .footer{
     display: inline-block;
@@ -1244,8 +1320,7 @@ footer{
 .footer__list-item {
     list-style-type: none;
    display: inline-block;
-  /* background-color: red;*/
-    width:5%;
+  /* background-color: red;
     
     padding: 8px; 
 }
@@ -1267,4 +1342,4 @@ footer{
         height: 2.5rem;
         width: 2.5rem;
     }
-}
+} */

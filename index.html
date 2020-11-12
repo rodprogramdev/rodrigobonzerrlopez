@@ -160,7 +160,7 @@
                     </div> -->
 
 
-                    <div class="container-fluid">
+                    <div class="container-fluid portfolio__container">
                        
 
                         <div id="carouselExampleControls" class="carousel slide">
@@ -184,7 +184,7 @@
                                             class="box__img img-thumbnail img-fluid"></a>
 
                                     <img src="..." class="d-block w-100" alt="...">
-
+                                       
                                         <br>
                                         
                                     <div class="carousel-caption d-none d-lg-block">
@@ -698,8 +698,62 @@
 
 
     <footer>
-        <p>&copy;Rodrigo Bonzerr S. Lopez. all rights reserved</p>
-        <p>Site still Under Construction</p>
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row row-cols-2">
+                    <div class="col-lg-3 col-md-4 col-sm">
+                        <ul class="footer__list">
+                            <li>
+                                <h3 class="footer__heading">SERVICES & COURSES</h3>
+                            </li>
+                            <li class="footer__item"><a href="#" class="footer__link">Web development</a> </li>
+                        <li class="footer__item"><a href="#" class="footer__link">Self-defense</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Financial Education</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Penetration Testing</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link"></a>
+                            <h3 class="footer__heading">ABOUT ME</h3>
+                        </li>
+                        <li class="footer__item"><a href="#" class="footer__link"
+                            onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">My Story</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Testimonials</a></Li>
+                        
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm">
+                    <ul class="footer__list">
+                        <li>
+                            <h3 class="footer__heading">OTHERS</h3>
+                        </li>
+                        <li class="footer__item"><a href="#" class="footer__link">FAQ & Reminders</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">My Blog</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">09325302838</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">rbsldevtechsolutions@gmail.com</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm">
+                    <ul class="footer__list">
+                        <li>
+                            <h3 class="footer__heading">SOCIAL MEDIA</h3>
+                        </li>
+                        <li class="footer__item"><a href="#" class="footer__link">Facebook</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Twitter</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <p class="footer__copyright">&copy;Rodrigo Bonzerr S. Lopez. all rights reserved</p>
+        <!-- <p>Site still Under Construction</p> -->
 
         <!-- <div class="footer">
             <ul class="footer__list">
@@ -827,7 +881,7 @@
     <!-- *****************************************TYPEWRITTER EFFECT ABOUT *********************** -->
     <script>
         var i = 0;
-        var txt = 'I am a computer scientist, a teacher and a lifetime learner. I believe that learning is a matter of finding your purpose, find your purpose and you will be the wisest man who ever lived. Fifteen years in the field of teaching. I would like to leverage my PASSION in teaching to impact the lives of members of the community especially the youth who needs these skills to be competitive in a tech driven society. I am a problem solver and loves innovation, finally I am a certified Marvel.';
+        var txt = 'I am a computer scientist, a teacher and a lifetime learner. Fifteen years in the field of teaching. I would like to leverage my PASSION in teaching to impact the lives of members of the community especially the youth who needs these skills to be competitive in a tech driven society. I am a problem solver and loves innovation, I believe that learning is a matter of finding your purpose, find your purpose and you will be the wisest man who ever lived. Finally I am a certified Marvel geek.';
         var speed = 30;
 
         function typeWriter() {
