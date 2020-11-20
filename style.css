@@ -38,6 +38,7 @@ html{
 body{
     /*font-family: 'Indie Flower', cursive;*/
     font-family: 'Montserrat', sans-serif;
+    
     font-size: 1.5rem; /*1.8*/
 
 }
@@ -427,8 +428,9 @@ h2:hover{
     display: inline-block;
     width:50%;
     margin-top: 10rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align:justify;
+   
 }
 
 @media only screen and (max-width: 600px){
@@ -1128,7 +1130,7 @@ h3:hover{
 /****************************************SERVICES SECTION***************************************/
 .services{
    /* background-color: rgb(245, 247, 248);*/
-    height: 150vh;
+    height: 200vh;
     position: relative;
     text-align:center;
 }
@@ -1141,7 +1143,101 @@ h3:hover{
 
 
 /****************************************CARD SERVICES SECTION***************************************/
-.card {
+
+.card__course--1{
+    background-color:red;
+    /* background-image:url(book1/cid.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: -15rem -1rem; */
+    border-radius:.5rem;/* 5px;*/
+    border: 1px solid rgb(129, 97, 97);
+    box-shadow: -1rem 1rem 2rem black;
+    display: inline-block;
+    background-color: white;
+    
+    margin: 4rem .5rem;
+    height: 40rem;
+    width: 30rem;
+    display: inline-block;
+    position: relative;
+}
+
+.card__course--heading{
+    height: 20%;
+}
+
+.card__banner{
+    /* position: absolute;
+    
+    background-image:url(images/v3-HTML5-Rodrigo-Bonzerr-S-Lopez.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 73%;
+    width: 100%; */
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+
+    border-bottom-right-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: 1px solid black;
+    
+}
+
+.card__img--1{
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: 1px solid black;
+}
+
+.card__banner--link{
+    height: 100%;
+    width: 100%;
+}
+
+
+.card__course--2{
+    background-color:red;
+    /* background-image:url(book1/cid.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: -15rem -1rem; */
+    border-radius:.5rem;/* 5px;*/
+    border: 1px solid rgb(129, 97, 97);
+    box-shadow: -1rem 1rem 2rem black;
+    display: inline-block;
+    background-color: white;
+    
+    margin: 4rem .5rem;
+    height: 40rem;
+    width: 30rem;
+    display: inline-block;
+}
+
+
+.card__course--3{
+    background-color:red;
+    /* background-image:url(book1/cid.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: -15rem -1rem; */
+    border-radius:.5rem;/* 5px;*/
+    border: 1px solid rgb(129, 97, 97);
+    box-shadow: -1rem 1rem 2rem black;
+    display: inline-block;
+    background-color: white;
+    
+    margin: 4rem .5rem;
+    height: 40rem;
+    width: 30rem;
+    display: inline-block;
+}
+
+.card__photography {
     background-image:url(book1/cid.png);
     background-size: cover;
     background-repeat:no-repeat;
@@ -1162,11 +1258,10 @@ h3:hover{
 }
 
 @media only screen and (max-width: 600px){
-    .card{
+    .card__photography{
     height: 20rem;
     width: 30rem;
     margin: 3rem .5rem;
-
     background-position: -6rem -1rem; 
 }
 
@@ -1199,7 +1294,6 @@ h3:hover{
     text-align: center;
     color: rgb(253, 253, 253);
     width: 80%;
-    
     text-shadow: 0 0 .5rem black;
     box-shadow: 0 2px .5rem rgb(214, 28, 28);
     
@@ -1212,6 +1306,7 @@ h3:hover{
         font-size: 1rem;
     }
 }
+
 
 /****************************************FOOTER SECTION***************************************/
 footer{
