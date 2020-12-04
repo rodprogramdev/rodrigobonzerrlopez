@@ -456,7 +456,7 @@ h2:hover{
 /****************************************PARALLAX SECTION***************************************/
 
 .parallax {
-    height: 100vh;
+    height: 70vh;
     background-image: url(images/photography-rbsl.jpg);
     background-size: cover;
     background-position: 20% 30%;
