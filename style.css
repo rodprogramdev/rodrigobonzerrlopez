@@ -208,6 +208,7 @@ h1{
 .heading__span--2:hover{
     
     transform:translate(0, -2rem) rotateZ(-4deg);
+    cursor: pointer;
 }
 
 
