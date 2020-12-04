@@ -1172,6 +1172,8 @@ h3:hover{
 
 /****************************************CARD SERVICES SECTION***************************************/
 
+/******************************HTML 5 FUNDAMENTALS*******************************/
+
 .card__course--1{
     background-color:red;
     /* background-image:url(book1/cid.png);
@@ -1227,6 +1229,8 @@ h3:hover{
     width: 100%;
 }
 
+/******************************SCRATCH CODING FOR KIDS*******************************/
+
 
 .card__course--2{
     background-color:red;
@@ -1244,7 +1248,32 @@ h3:hover{
     height: 40rem;
     width: 30rem;
     display: inline-block;
+    position: relative;
 }
+
+.card__video{
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+
+    border-bottom-right-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: 1px solid black;
+}
+
+
+.card-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit:fill; }
+
+
+
+
+
+
+/******************************STICK FIGHTING*******************************/
 
 
 .card__course--3{
@@ -1263,8 +1292,35 @@ h3:hover{
     height: 40rem;
     width: 30rem;
     display: inline-block;
+    position:relative;
 }
 
+
+.card__banner--arnis{
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+}
+.card__img--2{
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: 1px solid black;
+}
+
+.card__banner--link{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/******************************PHOTOGRAPHY*******************************/
 .card__photography {
     background-image:url(book1/cid.png);
     background-size: cover;
