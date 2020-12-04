@@ -47,8 +47,7 @@ body{
 
 
 .header{
-    /*background-color: rgb(238, 231, 231);rgb(227, 253, 227);*/
-    /* background-color:rgb(14, 4, 4);  */
+  
     height: 100vh;/*95vh;*/
     background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),/*rgba(6, 7, 14, 0.733),*/
      rgba(14, 4, 2, 0.849)), 
@@ -63,7 +62,8 @@ body{
 
 .navbar{
     font-size: 1.5rem;
-    padding: 12px 10% 10px 2%;
+    padding: 12px 5% 10px 2%;
+ 
     
     
 }
@@ -90,8 +90,11 @@ body{
 
 
 .nav-item{
-    padding: 3%;
+    padding: 2%;
 }
+
+
+
 @media only screen and (max-width: 600px){
     .nav-item{
         padding: 1%;
@@ -143,82 +146,24 @@ img{
     
 }
 
-/*DIV HEADING*/
-
-/*
-.heading-container{
-    background-color: rgb(49, 115, 238);
-    clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
-    height: 100vh;/*92.7vh;*/
-   /* animation:containerMove 15s infinite;
-  
-}*/
-/*
-.heading-container{
-    background-color: rgba(1, 180, 235, 0.301);
-    height: 70%;
-    width: 60%;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    
-}
-
-
-@keyframes containerMove {
-    
-    15% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
-        background-color: rgba(1, 1, 77, 0.466);
-       
-    }
-
-
-    50% {clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
-        background-color: rgba(1, 161, 235, 0.849);
-
-
-        
-        
-    }
-
-    65% {
-        /*clip-path: polygon(0 0, 100% 26%, 100% 100%, 0 63%);
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-        clip-path: polygon(43% 1%, 92% 0, 64% 100%, 14% 100%);
-        
-        background-color: rgba(233, 5, 165, 0.836);
-      
-    }
-    
-    100% {clip-path:polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);
-        background-color: rgb(49, 115, 238);
-       
-    
-    }
-
-  }
-  */
-
 
  
 
   @media only screen and (max-width: 600px){
     .heading-container{
-        /*background-color: rgb(49, 115, 238);*/
+       
        
         background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),
         rgba(14, 4, 2, 0.849)), 
         url(images/RBSL-Vocals.jpg);
         background-size: cover;
         background-position:center;
-        /*<a href='https://www.freepik.com/vectors/logo'>Logo vector created by freepik - www.freepik.com</a>*/
+       
             
-      /*  clip-path: polygon(0% 35%, 90% -3%, 100% 68%, 18% 100%);*/
         height: 130vh;
         animation:none;
         
-            /* clip-path: polygon(0 0, 100% 0, 100% 67%, 0 78%); */
+      
             
         
         }
@@ -247,12 +192,12 @@ h1{
     letter-spacing: .1rem;
 }
 .heading__span--2{
-  /* border-bottom: .5rem dotted rgb(255, 0, 119);*/
+ 
     font-size: 7rem;
     text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-   /* line-height: .2rem;*/
+  
     letter-spacing: .3rem;
-    /*animation:borderMove 3s infinite;*/
+  
     display: inline-block;
     animation: all .5s;
     transition: all .5s;
@@ -267,29 +212,6 @@ h1{
 
 
 
-
-
-/*
-@keyframes borderMove {
-   
-    20%{
-        border-bottom: 1rem dotted rgb(1, 1, 77);}
-    
-
-    50% {
-        border-bottom: 1rem dotted rgb(226, 10, 10);
-       
-    }
-
-    60%{
-        border-bottom: 1rem dotted rgb(5, 1, 1);
-    }
-
-   }*/
-/* 
-.heading__span--3{
-    font-size: 2.8rem;
-} */
 
 .txt-type{
     font-size: 2.5rem;
@@ -462,18 +384,14 @@ h2:hover{
     background-position: 20% 30%;
     background-attachment: fixed;
     width: 100%;
-    /*min-height: 10%;*/
-    /*margin: 0px 50px 40px 50px;
-    border-radius: 20px;
-    border: 10px solid black;*/
-    /*height: 5vh;*/
+  
 }
 
 /****************************************PORTFOLIO SECTION***************************************/
 
 .portfolio{
-    background-color: rgb(245, 247, 248); /* background-color: black;/*rgb(15, 13, 13); /*rgb(14, 4, 4);*/
-    height: 100vh;/*420vh;*/
+    background-color: rgb(245, 247, 248);
+    height: 100vh;
     text-align:center;
     
 }
@@ -509,16 +427,6 @@ h2:hover{
 }
 
 
-/* h3{
-    font-size: 3rem;
-    text-shadow: -1px 2px 2px #C91212 , -2px 3px 4px  #fff ;
-    color:#fff;
-    transition: all ease .5s;
-}
-
-h3:hover{
-    transform: scale(1.5);
-} */
 
 .stickMan{
     display:inline-block;
@@ -638,11 +546,9 @@ h3:hover{
 
 .content__cms{
     font-size: 5rem;
-    /* background-color: rgb(20, 11, 11); */
-    /* background-color: rgb(20, 21, 29); */
+    
     margin:0;
-    /* padding-top: 5%; */
-    /* transition: scale .6s; */
+  
     padding:0;
     box-sizing: border-box;
 }
@@ -693,9 +599,9 @@ h3:hover{
 /********************************RWD RESPONSIVE WEB DESIGN******************/
 .content__rwd{
     margin:0 3rem 1rem 3rem;
-    /* display: inline-block; */
+  
     font-size: 5rem;
-    /* transition: scale .6s; */
+   
 }
 
 
@@ -762,84 +668,13 @@ h3:hover{
 
 
 
-
-
-/* 
-.content__cms{
-    background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096));
-    padding: 2rem;
-    margin:5px;
-    width: 100%;
-    border-radius: 2%;
-   /* border: .2rem solid black;
-    box-shadow: 0 0 5px rgb(122, 117, 117);
-}
-
-
-@media only screen and (max-width: 600px){
-    .content__cms{
-        border-radius: 0;
-    }
-}
-
-
-
-
-
- */
-
-
-/*STICKMAN2 Object properties*/
-
-
-
-
-
-/*
-.cms{
-    height: 20vh;
-    width: 50%;
-    display: inline-block;
-    text-align: center;
-    
-    padding: 1rem;
-    
-   
-}
-
-@media only screen and (max-width: 600px){
-    .cms{
-        width:100%;
-    
-    }
-}
-
-
-.cms__wix{
-    font-size: 5rem;
-    background-color:rgb(227, 227, 233);
-    padding-top: 1rem;
-    box-shadow: 0 0 5px rgb(211, 185, 185);
-   
-    
-}
-
-@media only screen and (max-width: 600px){
-  .cms__wix{
-        font-size: 3rem;
-    }
-}
-*/
-
-
-
 .content__vanillaJs{
     background-image:linear-gradient(to left top, rgba(59, 129, 12, 0.986), rgba(233, 217, 231, 0.952));
     padding: 2rem;
     
     width: 100%;
     border-radius: 1%;
-   /* border: .2rem solid black;*/
+  
     box-shadow: 0 0 5px black;
 }
 
@@ -859,27 +694,6 @@ h3:hover{
     
 }
 
-/*
-.cms__wordpress{
-    background-color:#fff;
-    height: 20vh;
-    width:10%;
-    margin: 2rem auto;
-    border-radius:5%;
-    padding-top: 1.6rem;
-    font-size: 8rem;
-}
-.cms__wix{
-    background-color:#fff;
-    height: 20vh;
-    width:10%;
-    margin: 2rem auto;
-    border-radius:50%;
-    padding-top: 1.6rem;
-    font-size: 8rem;
-}*/
-
-
 
 
 .portfolio__link{
@@ -889,14 +703,6 @@ h3:hover{
 
     
 }
-/*
-
-.box{
-    height:100vh;
-    background-color:red;
-   margin:0 auto;
-    
-}*/
 
 
 
@@ -959,36 +765,11 @@ h3:hover{
 
 }
 
-/*
-.box--1{
-    
-    background-color:green;
-    height: 27rem;
-    width: 27rem;
-}
-
-.box--2{
-    background-color:blue;
-    height: 27rem;
-    width: 27rem;
-}
-
-.box--3{
-    background-color:red;
-    height: 27rem;
-    width: 27rem;
-}*/
-
 
 /* ***************************************TECHNOLOGY SECTION************************************ */
-.particles__heading{
-    display:inline-block;
-    /* margin:0 3rem 1rem 3rem; */
-    width: 100%;
-    text-align:center;
-    padding: 5%;
+.section__tech{
+    text-align: center;
 }
-
 .technology{
     background-color: #fff;/* rgb(22, 13, 13);/* rgb(5, 54, 128); */
     text-align: center;
@@ -998,6 +779,15 @@ h3:hover{
     position: relative;
 
 }
+
+.particles__heading{
+   text-align: center;
+    /* margin:0 3rem 1rem 3rem; */
+position:relative;
+text-align: center;
+    padding: 5% 0;
+}
+
 /* .particles{
     background-color: black;
     text-shadow: 0 0 1rem black;
@@ -1030,9 +820,6 @@ h3:hover{
 
 
 .particles__icon--css3   {
-    /* position:absolute;
-    top:50%;
-    left:15%; */
     
     position:absolute; 
      top:15%;
@@ -1048,16 +835,13 @@ h3:hover{
 
 
 .particles__icon--js   {
-    /* position:absolute;
-    top:50%;
-    left:25%; */
+ 
     position:absolute;
     top:15%;
     left:58%;  
     background-image: url(images/js-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-    /* height: 10rem;
-    width: 10rem; */
+  
     height: 10rem;
     width: 10rem;
     
@@ -1065,32 +849,26 @@ h3:hover{
 
 
 .particles__icon--sass   {
-    /* position:absolute;
-    top:50%;
-    left:35%; */
+  
    position:absolute;
     top:50%;
     left:34%;  
     background-image: url(images/scss-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-    /* height: 10rem;
-    width: 10rem; */
+   
     height: 10rem;
     width: 10rem;
 }
 
 
 .particles__icon--bootstrap   {
-    /* position:absolute;
-    top:50%;
-    left:45%; */
+  
     position:absolute;
     top:50%;
     left:46%; 
     background-image: url(images/bootstrap-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-    /* height: 10rem;
-    width: 10rem; */
+  
     height: 10rem;
     width: 10rem;
 
@@ -1100,9 +878,7 @@ h3:hover{
 
 
 .particles__icon--php   {
-    /* position:absolute;
-    top:50%;
-    left:55%; */
+   
     position:absolute;
     top:50%;
     left:58%;  
@@ -1156,7 +932,7 @@ h3:hover{
 
 /****************************************SERVICES SECTION***************************************/
 .services{
-   /* background-color: rgb(245, 247, 248);*/
+  
     height: 200vh;
     position: relative;
     text-align:center;
@@ -1176,10 +952,7 @@ h3:hover{
 
 .card__course--1{
     background-color:red;
-    /* background-image:url(book1/cid.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: -15rem -1rem; */
+   
     border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
@@ -1198,13 +971,7 @@ h3:hover{
 }
 
 .card__banner{
-    /* position: absolute;
-    
-    background-image:url(images/v3-HTML5-Rodrigo-Bonzerr-S-Lopez.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 73%;
-    width: 100%; */
+   
     position: absolute;
     top: 30%;
     height: 70%;
@@ -1234,11 +1001,8 @@ h3:hover{
 
 .card__course--2{
     background-color:red;
-    /* background-image:url(book1/cid.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: -15rem -1rem; */
-    border-radius:.5rem;/* 5px;*/
+   
+    border-radius:.5rem;
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
     display: inline-block;
@@ -1278,10 +1042,7 @@ h3:hover{
 
 .card__course--3{
     background-color:red;
-    /* background-image:url(book1/cid.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: -15rem -1rem; */
+   
     border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
@@ -1336,9 +1097,7 @@ h3:hover{
     height: 45rem;
     width: 60rem;
     display: inline-block;
-    /*width: 100%;*/
-    
-    /*text-align:center;*/
+   
 }
 
 @media only screen and (max-width: 600px){
@@ -1361,12 +1120,6 @@ h3:hover{
 }
 
     
-
-/*
-#card .turn-page{
-    -webkit-background-size:100% 100% ;
-    background-size:100% 100% ;
-}*/
 
 
 
@@ -1476,49 +1229,3 @@ footer{
         font-size: 12px;
     }
 }
-/* 
-
-.footer{
-    display: inline-block;
-    width: 100%;
-}
-
-
-
-.footer__list{
-    padding: 0;
-}
-.footer__link{
-   height: 100%;
-   width:100%;
-    
-    
-}
-
-
-.footer__list-item {
-    list-style-type: none;
-   display: inline-block;
-  /* background-color: red;
-    
-    padding: 8px; 
-}
-
-
-@media only screen and (max-width: 600px){
-    .footer__list-item{
-       width: 10%;
-    }
-}
-
-.img-icon{
-    height: 3rem;
-    width: 3rem;
-}
-
-@media only screen and (max-width: 600px){
-    .img-icon{
-        height: 2.5rem;
-        width: 2.5rem;
-    }
-} */
