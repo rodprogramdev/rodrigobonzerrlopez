@@ -473,7 +473,7 @@ h2:hover{
 
 .portfolio{
     background-color: rgb(245, 247, 248); /* background-color: black;/*rgb(15, 13, 13); /*rgb(14, 4, 4);*/
-    height: 115vh;/*420vh;*/
+    height: 100vh;/*420vh;*/
     text-align:center;
     
 }
@@ -981,21 +981,30 @@ h3:hover{
 
 
 /* ***************************************TECHNOLOGY SECTION************************************ */
+.particles__heading{
+    display:inline-block;
+    /* margin:0 3rem 1rem 3rem; */
+    width: 100%;
+    text-align:center;
+    padding: 5%;
+}
+
 .technology{
     background-color: #fff;/* rgb(22, 13, 13);/* rgb(5, 54, 128); */
     text-align: center;
-    height: 100vh;
-   
+    height: 70vh;
+    background-color: black;
+    text-shadow: 0 0 1rem black;
     position: relative;
 
 }
-.particles{
+/* .particles{
     background-color: black;
     text-shadow: 0 0 1rem black;
-    height: 70vh;
+    height: 200vh;
     
 
-}
+} */
 
 #particles-js{
   height: 70vh;
@@ -1006,14 +1015,14 @@ h3:hover{
 
 
 .particles__icon--html5   {
-    position:absolute;
-    top:50%;
-    left:5%;
+    margin-top:0;
+     position:absolute; 
+     top:15%;
+    left:34%;  
     background-image: url(images/html5-rodrigo-bonzerr-lopez-Mark7.svg);
     background-size: cover;
     height: 10rem;
     width: 10rem;
-   
 
     
 }
@@ -1021,9 +1030,13 @@ h3:hover{
 
 
 .particles__icon--css3   {
-    position:absolute;
+    /* position:absolute;
     top:50%;
-    left:15%;
+    left:15%; */
+    
+    position:absolute; 
+     top:15%;
+    left:46%; 
     background-image: url(images/CSS3-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
     height: 10rem;
@@ -1035,40 +1048,51 @@ h3:hover{
 
 
 .particles__icon--js   {
-    position:absolute;
+    /* position:absolute;
     top:50%;
-    left:25%;
+    left:25%; */
+    position:absolute;
+    top:15%;
+    left:58%;  
     background-image: url(images/js-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
+    /* height: 10rem;
+    width: 10rem; */
     height: 10rem;
     width: 10rem;
-   
-
     
 }
 
 
 .particles__icon--sass   {
-    position:absolute;
+    /* position:absolute;
     top:50%;
-    left:35%;
+    left:35%; */
+   position:absolute;
+    top:50%;
+    left:34%;  
     background-image: url(images/scss-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
+    /* height: 10rem;
+    width: 10rem; */
     height: 10rem;
     width: 10rem;
-
 }
 
 
 .particles__icon--bootstrap   {
+    /* position:absolute;
+    top:50%;
+    left:45%; */
     position:absolute;
     top:50%;
-    left:45%;
+    left:46%; 
     background-image: url(images/bootstrap-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
+    /* height: 10rem;
+    width: 10rem; */
     height: 10rem;
     width: 10rem;
-   
 
     
 }
@@ -1076,9 +1100,12 @@ h3:hover{
 
 
 .particles__icon--php   {
+    /* position:absolute;
+    top:50%;
+    left:55%; */
     position:absolute;
     top:50%;
-    left:55%;
+    left:58%;  
     background-image: url(images/php-rodrigo-bonzerr-lopez-mark8.svg);
     background-size: cover;
     height: 10rem;
@@ -1095,8 +1122,8 @@ h3:hover{
     left:65%;
     background-image: url(images/mysql.svg);
     background-size: cover;
-    height: 10rem;
-    width: 10rem;
+    height: 10%;
+    width: 10%;
    
 
     
@@ -1133,6 +1160,7 @@ h3:hover{
     height: 200vh;
     position: relative;
     text-align:center;
+    
 }
 
 @media only screen and (max-width: 600px){
