@@ -1177,7 +1177,7 @@ footer{
 }
 
 .footer__heading{
-    font-size:1.75rem;
+    font-size:2rem;
     color:white;
 }
 
@@ -1218,7 +1218,8 @@ footer{
 
 .footer__link:hover{
     text-decoration: none;
-    color:rgb(19, 131, 196);/* color: rgb(243, 239, 22); */
+    color:rgb(206, 8, 8);
+    /* color:rgb(19, 131, 196);color: rgb(243, 239, 22); */
 }
 
 .footer__copyright{
