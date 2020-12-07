@@ -404,6 +404,18 @@ h2:hover{
     }
 }
 
+@media only screen and (max-width: 1366px){
+    .portfolio{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1026px){
+    .portfolio{
+        height: 100vh;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .portfolio{
         
@@ -425,6 +437,10 @@ h2:hover{
    /*animation: all .5s;*/
     transition: scale .6s;
 }
+
+
+
+
 
 
 
@@ -554,9 +570,7 @@ h2:hover{
 
 .content__cms{
     font-size: 5rem;
-    
     margin:0;
-  
     padding:0;
     box-sizing: border-box;
 }
@@ -793,8 +807,15 @@ h2:hover{
     /* margin:0 3rem 1rem 3rem; */
 position:relative;
 text-align: center;
-    padding: 5% 0;
+    padding: 5% 0 3% 0;
+    margin: 1% 0;
 }
+
+@media only screen and (max-width: 1366px){
+    
+
+}
+
 
 /* .particles{
     background-color: black;
