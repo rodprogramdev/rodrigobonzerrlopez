@@ -398,10 +398,15 @@ h2:hover{
     
 }
 
+@media only screen and (max-width: 1440px){
+    .portfolio{
+        height: 86vh;
+    }
+
 @media only screen and (max-width: 600px){
     .portfolio{
         
-        height: 850vh;
+        height: 100vh;
         
         
     }
