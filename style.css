@@ -1280,6 +1280,17 @@ text-align: center;
     }
 }
 
+/****************************************QUOTE FOR LEARNING***********************************/
+.quote{
+    font-size:2rem;
+}
+
+@media only screen and (max-width:600px){
+    .quote{
+        font-size: 1rem;
+    }
+}
+
 /****************************************FOOTER SECTION***************************************/
 footer{
     background-color: rgb(15, 13, 13);
