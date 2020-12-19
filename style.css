@@ -1111,13 +1111,13 @@ text-align: center;
     display: inline-block;
     position: relative;
 }
-
+ 
 @media only screen and (max-width: 600px){
     .card__course--1{
         height: 30rem;
         width: 25rem;
     }
-}
+} 
 
 .card__course--heading{
     height: 20%;
@@ -1163,13 +1163,12 @@ text-align: center;
     position: relative;
 }
 
-
 @media only screen and (max-width: 600px){
     .card__course--2{
         height: 30rem;
         width: 25rem;
     }
-}
+} 
 
 .card__video{
     position: absolute;
@@ -1210,7 +1209,7 @@ text-align: center;
         height: 30rem;
         width: 25rem;
     }
-}
+} 
 
 .card__banner--arnis{
     position: absolute;
