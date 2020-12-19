@@ -31,85 +31,71 @@ MEDIA QUERRY MANAGER
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     /*font-family: 'Indie Flower', cursive;*/
     font-family: 'Montserrat', sans-serif;
-    
     font-size: 1.5rem; /*1.8*/
     font-family: 'Yeon Sung', cursive;
-
 }
 
 /****************************************HEADER SECTION***************************************/
 
 
-.header{
-  
+.header {
     height: 100vh;/*95vh;*/
     background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),/*rgba(6, 7, 14, 0.733),*/
      rgba(14, 4, 2, 0.849)), 
      url(images/rod-sidhaya.jpg); 
     background-size: cover;
     background-position: top;
-
     /*https://www.freepik.com/free-vector/abstract-violet-pixel-rain-background_6091932.htm
     <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>*/
-    
 }
 
-.navbar{
+.navbar {
     font-size: 1.5rem;
     padding: 12px 5% 10px 2%;
- 
-    
-    
 }
 
 @media only screen and (max-width: 600px){
-    .header{height: 100vh;
+    .header{
+        height: 100vh;
             /* background-image:linear-gradient(to right bottom, rgba(1, 161, 235, 0.87), rgba(237, 171, 50, 0.096)),url(images/Rbslopezphotography--1.JPG); */
-            
             background-size:contain;
             background-position:50% 100%;
             background-repeat: no-repeat;
-            
         }
-
-    .navbar{
+    .navbar {
         padding: 2%;
     }
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size:2.5rem;
     cursor:pointer;
 }
 
-
-.nav-item{
+.nav-item {
     padding: 2%;
 }
 
-
-
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .nav-item{
         padding: 1%;
     }
 }
 
-.nav-link{
+.nav-link {
     cursor:pointer;
 }
 
-
-
 /*DIV LOGO CONTAINTER*/
-.logo-image{
+.logo-image {
     background-color: rgb(231, 221, 233);
     box-shadow: -2px 0 5px 2px black, 0px 0 8px 2px #fff;
     border-radius: 50%;
@@ -119,60 +105,42 @@ body{
     transform:translate(-50%, -50%);
 }
  
-img{
-    
+img {
     height: 12rem;
     width:12rem;
-    
 }
 
-@media only screen and (max-width: 600px){
-    .logo-image{
-       
+@media only screen and (max-width: 600px) {
+    .logo-image {
         top:45%;
-       
-       
     }
 
-    img{
+    img {
     
         height: 10rem;
         width:10rem;
         z-index:-1;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         font-size:1.8rem;
     }
-    
 }
-
-
- 
 
   @media only screen and (max-width: 600px){
     .heading-container{
-       
-       
         background-image: linear-gradient(to right bottom, rgba(14, 4, 4, 0.452),
         rgba(14, 4, 2, 0.849)), 
         url(images/RBSL-Vocals.jpg);
         background-size: cover;
         background-position:center;
-       
-            
         height: 130vh;
         animation:none;
-        
-      
-            
-        
         }
-    
 
    }
 
-.heading{
+.heading {
     position: absolute;
     top:50%;
     left: 50%;
@@ -180,33 +148,26 @@ img{
     text-align: center;
 }
 
-
-
-h1{
+h1 {
     display: inline-block;
     color: white;
    width:100%;
 }
-.heading__span--1{
-    
+.heading__span--1 {
     font-size: 2.5rem;
     letter-spacing: .1rem;
 }
-.heading__span--2{
- 
+.heading__span--2 {
     font-size: 7rem;
     text-shadow: -2px 5px 5px  red, -3px 5px 5px black;
-  
     letter-spacing: .3rem;
-  
     display: inline-block;
     animation: all .5s;
     transition: all .5s;
     
 }
 
-.heading__span--2:hover{
-    
+.heading__span--2:hover {
     transform:translate(0, -2rem) rotateZ(-4deg);
     cursor: pointer;
 }
@@ -513,8 +474,6 @@ h2:hover {
     border-radius: 50%;
 }
 
-
-
 .eyes {
     position: absolute;
     display: flex;
@@ -563,9 +522,7 @@ h2:hover {
     width: 1.5rem;
     background-color: black;
     transition: all .5s;
-
 }
-
 
 .eyeball2 {
     position:absolute;
@@ -690,7 +647,6 @@ h2:hover {
     box-shadow: 0 0 5px black;
 }
 
-
 @media only screen and (max-width: 600px) {
     .content__vanillaJs {
         border-radius: 0;
@@ -705,15 +661,11 @@ h2:hover {
     box-shadow: 0 0 5px black;
 }
 
-
-
 .portfolio__link {
     text-decoration: none;
     height: 100%;
     width: 100%;
 }
-
-
 
 .box__img {
     display: inline-block;
@@ -789,8 +741,8 @@ h2:hover {
 .particles__heading {
    text-align: center;
     /* margin:0 3rem 1rem 3rem; */
-position:relative;
-text-align: center;
+    position:relative;
+    text-align: center;
     padding: 5% 0 3% 0;
     margin: 1% 0;
 }
@@ -884,6 +836,7 @@ text-align: center;
         left: 65%;
         height: 8rem;
         width: 8rem;
+    }
 }
 
 
@@ -992,7 +945,6 @@ text-align: center;
     height: 200vh;
     position: relative;
     text-align:center;
-    
 }
 
 @media only screen and (max-width: 600px) {
@@ -1207,6 +1159,7 @@ footer {
     text-align:left;
     padding:1% 2% 2% 2%;
 }
+
 /* 
 @media only screen and (max-width: 600px){
     footer{
@@ -1215,7 +1168,7 @@ footer {
 } */
 
 @media only screen and (max-width: 600px) {
-    footer{
+    footer {
         height: 50vh;
     }
 }
@@ -1244,25 +1197,25 @@ footer {
     translate:all ease-in 5s;
 }
 
-.footer__item:hover{
+.footer__item:hover {
     color: lightblue;
     text-decoration: none;
     transform: translateX(.2rem);
 }
 
-.footer__link{
+.footer__link {
     text-decoration: none;
     cursor: pointer;    
     color:white;
 }
 
-.footer__link:hover{
+.footer__link:hover {
     text-decoration: none;
     color:rgb(206, 8, 8);
     /* color:rgb(19, 131, 196);color: rgb(243, 239, 22); */
 }
 
-.footer__copyright{
+.footer__copyright {
     text-align:center;
     padding-top: 4%;
 }
@@ -1280,7 +1233,7 @@ footer {
     }
 }
 
-}
+
 
 
 
