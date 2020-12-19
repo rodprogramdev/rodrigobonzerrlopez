@@ -929,6 +929,17 @@ text-align: center;
     
 }
 
+@media only screen and (max-width: 600px){
+    .particles__icon--html5{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+
 
 
 .particles__icon--css3   {
@@ -946,6 +957,17 @@ text-align: center;
 }
 
 
+@media only screen and (max-width: 600px){
+    .particles__icon--css3{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        height: 8rem;
+        width: 8rem;
+    }
+}
+
+
 .particles__icon--js   {
  
     position:absolute;
@@ -957,6 +979,15 @@ text-align: center;
     height: 10rem;
     width: 10rem;
     
+}
+
+@media only screen and (max-width: 600px){
+    .particles__icon--js{
+        position: absolute;
+        top: 15%;
+        left: 65%;
+        height: 8rem;
+        width: 8rem;
 }
 
 
@@ -972,6 +1003,15 @@ text-align: center;
     width: 10rem;
 }
 
+@media only screen and (max-width: 600px){
+    .particles__icon--sass{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        height: 8rem;
+        width: 8rem;
+    }
+}
 
 .particles__icon--bootstrap   {
   
@@ -985,6 +1025,16 @@ text-align: center;
     width: 10rem;
 
     
+}
+
+@media only screen and (max-width: 600px){
+    .particles__icon--bootstrap{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        height: 8rem;
+        width: 8rem;
+    }
 }
 
 
@@ -1001,6 +1051,16 @@ text-align: center;
    
 
     
+}
+
+@media only screen and (max-width: 600px){
+    .particles__icon--php{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        height: 8rem;
+        width: 8rem;
+    }
 }
 
 
@@ -1039,6 +1099,16 @@ text-align: center;
     text-decoration: none;
     color:white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .icon-credit{
+        top: 90%;
+        left: 50%;
+        transform: translate(-75%, -50%);
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 
