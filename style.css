@@ -885,11 +885,11 @@ text-align: center;
     padding: 5% 0 3% 0;
     margin: 1% 0;
 }
-
+/* 
 @media only screen and (max-width: 1366px){
     
 
-}
+} */
 
 @media only screen and (max-width: 384px){
     .particles__heading{
@@ -918,15 +918,13 @@ text-align: center;
 
 .particles__icon--html5   {
     margin-top:0;
-     position:absolute; 
-     top:15%;
+    position:absolute; 
+    top:15%;
     left:34%;  
     background-image: url(images/html5-rodrigo-bonzerr-lopez-Mark7.svg);
     background-size: cover;
     height: 10rem;
     width: 10rem;
-
-    
 }
 
 @media only screen and (max-width: 600px){
@@ -939,26 +937,18 @@ text-align: center;
     }
 }
 
-
-
-
-.particles__icon--css3   {
-    
+.particles__icon--css3 {
     position:absolute; 
-     top:15%;
+    top:15%;
     left:46%; 
     background-image: url(images/CSS3-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
     height: 10rem;
     width: 10rem;
-   
-
-    
 }
 
-
-@media only screen and (max-width: 600px){
-    .particles__icon--css3{
+@media only screen and (max-width: 600px) {
+    .particles__icon--css3 {
         position: absolute;
         top: 15%;
         left: 40%;
@@ -967,15 +957,12 @@ text-align: center;
     }
 }
 
-
-.particles__icon--js   {
- 
+.particles__icon--js{
     position:absolute;
     top:15%;
     left:58%;  
     background-image: url(images/js-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-  
     height: 10rem;
     width: 10rem;
     
@@ -991,14 +978,12 @@ text-align: center;
 }
 
 
-.particles__icon--sass   {
-  
+.particles__icon--sass{
    position:absolute;
     top:50%;
     left:34%;  
     background-image: url(images/scss-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-   
     height: 10rem;
     width: 10rem;
 }
@@ -1013,18 +998,14 @@ text-align: center;
     }
 }
 
-.particles__icon--bootstrap   {
-  
+.particles__icon--bootstrap{
     position:absolute;
     top:50%;
     left:46%; 
     background-image: url(images/bootstrap-rodrigo-bonzerr-lopez-Mark1.svg);
     background-size: cover;
-  
     height: 10rem;
     width: 10rem;
-
-    
 }
 
 @media only screen and (max-width: 600px){
@@ -1037,20 +1018,14 @@ text-align: center;
     }
 }
 
-
-
-.particles__icon--php   {
-   
+.particles__icon--php{
     position:absolute;
     top:50%;
     left:58%;  
     background-image: url(images/php-rodrigo-bonzerr-lopez-mark8.svg);
     background-size: cover;
     height: 10rem;
-    width: 10rem;
-   
-
-    
+    width: 10rem;    
 }
 
 @media only screen and (max-width: 600px){
@@ -1063,8 +1038,8 @@ text-align: center;
     }
 }
 
-
-.particles__icon--mysql   {
+/* 
+.particles__icon--mysql{
     position:absolute;
     top:50%;
     left:65%;
@@ -1072,15 +1047,7 @@ text-align: center;
     background-size: cover;
     height: 10%;
     width: 10%;
-   
-
-    
-}
-
-
-
-
-
+} */
 
 .icon-credit{
     display:inline-block;
@@ -1088,7 +1055,6 @@ text-align: center;
     color: white;
     top:90%;
     left: 70%;
-    
     transform:translate(-50%,-50%);
     text-align:right;
     font-size: 1.5rem;
@@ -1106,7 +1072,7 @@ text-align: center;
         top: 90%;
         left: 50%;
         transform: translate(-75%, -50%);
-        width: 100%;
+        width: 50%;
         font-size: 1rem;
     }
 }
@@ -1134,13 +1100,11 @@ text-align: center;
 
 .card__course--1{
     background-color:red;
-   
     border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
     display: inline-block;
     background-color: white;
-    
     margin: 4rem .5rem;
     height: 40rem;
     width: 30rem;
@@ -1160,16 +1124,13 @@ text-align: center;
 }
 
 .card__banner{
-   
     position: absolute;
     top: 30%;
     height: 70%;
     width: 100%;
-
     border-bottom-right-radius:.5rem;
     border-bottom-left-radius:.5rem;
     border: 1px solid black;
-    
 }
 
 .card__img--1{
@@ -1190,13 +1151,11 @@ text-align: center;
 
 .card__course--2{
     background-color:red;
-   
     border-radius:.5rem;
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
     display: inline-block;
     background-color: white;
-    
     margin: 4rem .5rem;
     height: 40rem;
     width: 30rem;
@@ -1217,7 +1176,6 @@ text-align: center;
     top: 30%;
     height: 70%;
     width: 100%;
-
     border-bottom-right-radius:.5rem;
     border-bottom-left-radius:.5rem;
     border: 1px solid black;
@@ -1227,25 +1185,19 @@ text-align: center;
 .card-video__content {
     height: 100%;
     width: 100%;
-    object-fit:fill; }
-
-
-
-
+    object-fit:fill; 
+}
 
 
 /******************************STICK FIGHTING*******************************/
 
-
 .card__course--3{
     background-color:red;
-   
     border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
     box-shadow: -1rem 1rem 2rem black;
     display: inline-block;
     background-color: white;
-    
     margin: 4rem .5rem;
     height: 40rem;
     width: 30rem;
@@ -1260,13 +1212,13 @@ text-align: center;
     }
 }
 
-
 .card__banner--arnis{
     position: absolute;
     top: 30%;
     height: 70%;
     width: 100%;
 }
+
 .card__img--2{
     height: 100%;
     width: 100%;
@@ -1279,11 +1231,6 @@ text-align: center;
     height: 100%;
     width: 100%;
 }
-
-
-
-
-
 
 /******************************PHOTOGRAPHY*******************************/
 .card__photography {
@@ -1301,7 +1248,6 @@ text-align: center;
     height: 45rem;
     width: 60rem;
     display: inline-block;
-   
 }
 
 @media only screen and (max-width: 600px){
@@ -1310,23 +1256,13 @@ text-align: center;
     width: 30rem;
     margin: 3rem .5rem;
     background-position: -6rem -1rem; 
+    }
 }
-
-}
-
 
 .card__page{
   background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
-  
-  
-    
 }
-
-    
-
-
-
 
 .card__heading{
     display: inline-block;
@@ -1337,17 +1273,13 @@ text-align: center;
     width: 80%;
     text-shadow: 0 0 .5rem black;
     box-shadow: 0 2px .5rem rgb(214, 28, 28);
-    
-
 }
 
 @media only screen and (max-width: 600px){
-
     .card__heading{
         font-size: 1rem;
     }
 }
-
 
 /****************************************FOOTER SECTION***************************************/
 footer{
@@ -1355,7 +1287,7 @@ footer{
     color:white;
     height: 40vh;
     text-align:left;
-    padding:1% 2% 2% 2% ;
+    padding:1% 2% 2% 2%;
    
 }
 
@@ -1365,17 +1297,10 @@ footer{
     }
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-
     footer{
         height: 50vh;
-       
     }
-
-  
 }
 
 .footer__heading{
@@ -1389,7 +1314,6 @@ footer{
 
 }
 
-
 @media only screen and (max-width: 600px) {
     h4{
         font-size: 1rem;
@@ -1398,9 +1322,6 @@ footer{
         font-size: 12px;
     }
 }
-
-
-
 
 .footer__item{
     translate:all ease-in 5s;
@@ -1412,6 +1333,7 @@ footer{
     text-decoration: none;
     transform: translateX(.2rem);
 }
+
 .footer__link{
     text-decoration: none;
     cursor: pointer;    
@@ -1436,9 +1358,14 @@ footer{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     .footer__copyright{
         font-size: 12px;
-        
     }
 }
+
+
+
+
+
+
