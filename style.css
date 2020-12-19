@@ -1123,7 +1123,7 @@ text-align: center;
 
 @media only screen and (max-width: 600px){
     .services{
-        height: 200vh;
+        height: 300vh;
     }
 }
 
@@ -1146,6 +1146,13 @@ text-align: center;
     width: 30rem;
     display: inline-block;
     position: relative;
+}
+
+@media only screen and (max-width: 600px){
+    .card__course--1{
+        height: 30rem;
+        width: 25rem;
+    }
 }
 
 .card__course--heading{
@@ -1197,6 +1204,14 @@ text-align: center;
     position: relative;
 }
 
+
+@media only screen and (max-width: 600px){
+    .card__course--2{
+        height: 30rem;
+        width: 25rem;
+    }
+}
+
 .card__video{
     position: absolute;
     top: 30%;
@@ -1236,6 +1251,13 @@ text-align: center;
     width: 30rem;
     display: inline-block;
     position:relative;
+}
+
+@media only screen and (max-width: 600px){
+    .card__course--3{
+        height: 30rem;
+        width: 25rem;
+    }
 }
 
 
