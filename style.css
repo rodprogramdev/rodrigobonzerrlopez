@@ -1109,13 +1109,50 @@ h2:hover {
     display: inline-block;
 }
 
+.card__photography--2{
+    display:none;
+   
+}
+
+
+.card__banner--photography {
+    position: absolute;
+    top: 30%;
+    height: 70%;
+    width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     .card__photography {
-    height: 20rem;
+    /* height: 20rem;
     width: 30rem;
     margin: 3rem .5rem;
-    background-position: -6rem -1rem; 
+    background-position: -6rem -1rem;  */
+    display:none;
     }
+
+    .card__photography--2{
+        height: 30rem;
+        width: 25rem;
+        background-color:red;
+        border-radius:.5rem;/* 5px;*/
+        border: 1px solid rgb(129, 97, 97);
+        box-shadow: -1rem 1rem 2rem black;
+        display: inline-block;
+        background-color: white;
+        margin: 4rem .5rem;
+        display: inline-block;
+        position:relative;
+    }
+}
+
+
+.card__img--3 {
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+    border: 1px solid black;
 }
 
 .card__page {
