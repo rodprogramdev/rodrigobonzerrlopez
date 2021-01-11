@@ -40,7 +40,7 @@ body {
     /*font-family: 'Indie Flower', cursive;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem; /*1.8*/
-    font-family: 'Yeon Sung', cursive;
+    /* font-family: 'Yeon Sung', cursive; */
 }
 
 /****************************************HEADER SECTION***************************************/
@@ -290,7 +290,8 @@ h2:hover {
     display: inline-block;
     width:50%;
     margin-top: 10rem;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 2rem;
     text-align:justify;
 }
 
@@ -410,6 +411,7 @@ h2:hover {
     }
 }
 
+/***************LG G5 Android Phone**************/
 @media only screen and (max-width: 384px) {
     .portfolio {
         height: 165vh;
