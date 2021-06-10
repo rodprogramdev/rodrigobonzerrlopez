@@ -1198,7 +1198,7 @@ h2:hover {
 footer {
     background-color: rgb(15, 13, 13);
     color:white;
-    height: 40vh;
+    height: 50vh;
     text-align:left;
     padding:1% 2% 2% 2%;
 }
@@ -1258,9 +1258,14 @@ footer {
     /* color:rgb(19, 131, 196);color: rgb(243, 239, 22); */
 }
 
+.tryhackme{
+    text-align:center;
+    padding-top: 2%;
+}
+
 .footer__copyright {
     text-align:center;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 
 @media only screen and (min-width: 1440px) {
