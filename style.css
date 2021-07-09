@@ -365,10 +365,13 @@ h2:hover {
 
 .parallax {
     height: 70vh;
-    background-image: url(images/photography-rbsl.jpg);
+    /* background-image: url(images/photography-rbsl.jpg); */
+    background-image: url(images/Rbslopezphotography--1.jpg);
     background-size: cover;
-    background-position: 20% 30%;
+    /* background-position: 20% 30%; */
+     background-position: 20% 100%; 
     background-attachment: fixed;
+
     width: 100%;
   
 }
@@ -1212,7 +1215,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     footer {
-        height: 50vh;
+        height: 60vh;
     }
 }
 
