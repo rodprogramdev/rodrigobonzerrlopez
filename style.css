@@ -1098,11 +1098,12 @@ h2:hover {
 
 /******************************PHOTOGRAPHY*******************************/
 .card__photography {
-    /* background-image:url(book1/banner1.jpg);  */
+    background-image:url(images/rbslopezPhotography-lightDrawing2.png);  
     background-size: cover;
     background-repeat:no-repeat;
     /* background-position: -15rem -1rem; */
-    background-position: -18rem -1rem; 
+    /* background-position: -18rem -1rem;  */
+    background-position: -16rem 0rem;  
 
     border-radius:.5rem;/* 5px;*/
     border: 1px solid rgb(129, 97, 97);
@@ -1171,13 +1172,14 @@ h2:hover {
 
 .card__heading {
     display: inline-block;
-    background-color: rgba(255, 0, 0, 0.623);
+    /* background-color: rgba(255, 0, 0, 0.623); */
+    background-color: rgba(21, 105, 15, 0.671);
     font-size: 2.5rem;
     text-align: center;
     color: rgb(253, 253, 253);
     width: 80%;
-    text-shadow: 0 0 .5rem black;
-    box-shadow: 0 2px .5rem rgb(214, 28, 28);
+    text-shadow: 0 2px .5rem black;
+    box-shadow: 0 5px .5rem rgb(214, 28, 28);
 }
 
 @media only screen and (max-width: 600px) {
