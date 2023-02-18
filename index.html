@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="">
     <meta name="description" content="portfolio site by Rodrigo Bonzerr Lopez"> 
     <title>Rodrigo Bonzerr Lopez - Website Designer</title>
     <!-- Bootstrap CDN -->
@@ -152,11 +153,11 @@
 
                                 <div class="carousel-item  ">
                                     <a class="portfolio__link" href="https://rbslopez.photo.blog/" target="_blank"><img
-                                            src="images/rbslopez-photos-website.png"
+                                            src="images/rbslopez-photos-website.png" alt="photo-blog"
                                             class="box__img img-thumbnail  img-fluid " loading="lazy"></a>
                                     <a href="https://clarenceandjessicawedding.wordpress.com/" class="portfolio__link"
                                         target="_blank"><img src="images/clarenceJessica.jpg"
-                                            class="box__img  img-thumbnail  img-fluid " loading="lazy"></a>
+                                            class="box__img  img-thumbnail  img-fluid " alt="clarence and jessica wedding" loading="lazy"></a>
                                     <a href="https://rbsldevtech-edu.thinkific.com/" target="_blank"><img
                                                 src="images/rbsldevtech-edu.PNG"
                                                 class="box__img  img-thumbnail img-fluid" loading="lazy"></a>
@@ -169,17 +170,17 @@
 
                                 <div class="carousel-item">
                                     <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
-                                        target="_blank"><img src="images/2mbchronicleslogo.jpg"
+                                        target="_blank"><img src="images/2mbchronicleslogo.jpg" alt="mb chronicles  wordpress site"
                                             class="box__img box__img2--1  img-thumbnail img-fluid"></a>
                                     <a class="portfolio__link" href="https://matangbayanchronicles.wordpress.com/"
-                                        target="_blank"><img src="images/mbcchronicles.png"
-                                            class="box__img box__img2--2  img-thumbnail img-fluid"></a>
+                                        target="_blank"><img src="images/mbcchronicles.png" alt="mbchronicles"
+                                            class="box__img box__img2--2  img-thumbnail img-fluid" alt="mbchronicles3"></a>
                                     <a href="https://nsrcnu.wordpress.com/2017/01/06/nsrc-national-service-reserve-corps/"
-                                        target="_blank"><img src="images/nsrc-nu.png"
+                                        target="_blank"><img src="images/nsrc-nu.png" alt="nsrc nu"
                                             class="box__img  img-thumbnail img-fluid"></a>
                                     <a class="portfolio__link"
                                         href="https://wedoscamartialartsinternational.wordpress.com/"
-                                        target="_blank"><img src="images/wedosite.png"
+                                        target="_blank"><img src="images/wedosite.png" alt="wedo website"
                                             class="box__img img-thumbnail img-fluid"></a>
                                     <img src="..." class="d-block w-100" alt="..." loading="lazy">
                                     <br />
@@ -189,11 +190,11 @@
                                 </div>
                                 <div class="carousel-item">
                                     <a href="https://rodprogramdev.wixsite.com/rbslopezportfolio" target="_blank"><img
-                                            src="images/wix-portfoliosite.png"
+                                            src="images/wix-portfoliosite.png" alt="wix portfolio site"
                                             class="box__img  img-thumbnail img-fluid"></a>
                                   
                                     <a href="http://rodrigobonzerrlopez.mystrikingly.com/" class="portfolio__link"
-                                            target="_blank"><img src="images/Rlopezportfolio.png"
+                                            target="_blank"><img src="images/Rlopezportfolio.png" alt="strikingly portfolio site"
                                             class="box__img img-thumbnail img-fluid"></a>
                                     <img src="..." class="d-block w-100" alt="..." loading="lazy">
                                     <br />
@@ -207,7 +208,7 @@
                                 <div class="carousel-item">
                                     <a href="https://rodprogramdev.github.io/rogueXcomputerservices/"
                                         class="portfolio__link" target="_blank"><img
-                                            src="images/roguex-computerservices.png"
+                                            src="images/roguex-computerservices.png" alt="roguex computer services"
                                             class="box__img img-thumbnail img-fluid" loading="lazy"></a>
                                     <a href="https://rodprogramdev.github.io/RbslTravels/" class="portfolio__link"
                                         target="_blank"><img src="images/rbsltravels.png"
@@ -471,8 +472,7 @@
                         <div class=" particles__icon--php"></div>
                     </div>
                 </div>
-                <!--<div class="particles__icon--mysql"></div>
-                     -->
+                <!--<div class="particles__iconmysql"></div>-->
                 <div class="icon-credit">
                     <a href='#' class="icon-credit__link">
                         ICONS
@@ -743,6 +743,7 @@
                 <script src="https://tryhackme.com/badge/311527"></script>
             </div>
             <p class="footer__copyright">&copy;Rodrigo Bonzerr S. Lopez. all rights reserved</p>
+        </div>
     </footer>
 
 
@@ -853,7 +854,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="turn.js"></script>
-    <script type="text/javascript">
+    <script>
         $('#card').turn({ gradients: true, acceleration: true });
         // $(window).resize(function () {
         //     window.location.href = window.location.href;
